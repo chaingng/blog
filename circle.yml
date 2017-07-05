@@ -1,3 +1,7 @@
+checkout:
+  post:
+    - git submodule add git@github.com:chaingng/chaingng.github.io.git public
+
 machine:
   timezone: Asia/Tokyo
 
