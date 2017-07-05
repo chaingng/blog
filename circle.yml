@@ -12,6 +12,6 @@ deployment:
     branch: master
     commands:
       - hugo -t mainroad
-      - cd public && git add .
+      - cd public && git add -A
       - cd public && git commit -m "[ci skip] publish"
       - cd public && git push origin master
