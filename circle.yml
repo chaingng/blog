@@ -17,7 +17,7 @@ deployment:
     branch: master
     commands:
       - git clone git@github.com:chaingng/chaingng.github.io.git public
-      - hugo
+      - hugo -t mainroad
       - cd public && git add .
       - cd public && git commit -m "[ci skip] publish"
       - cd public && git push origin master
