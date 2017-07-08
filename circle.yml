@@ -1,6 +1,6 @@
 checkout:
   post:
-    - git submodule update
+    - git submodule sync
 
 machine:
   timezone: Asia/Tokyo
