@@ -11,6 +11,7 @@ dependencies:
     - go get -v github.com/spf13/hugo
     - git config --global user.name "CircleCI"
     - git config --global user.email "circleci@example.com"
+    - git clone git@github.com:chaingng/chaingng.github.io.git public
 
 deployment:
   master:
