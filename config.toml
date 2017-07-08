@@ -1,6 +1,6 @@
 baseurl = "/"
 title = "takatm's blog"
-languageCode = "en-us"
+languageCode = "ja"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
@@ -14,8 +14,8 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 
 [Params]
-    subtitle = "Just another site" # Subtitle of your site
-    description = " John Doe's Personal blog about everything" # Description of your site
+    # subtitle = "Just another site" # Subtitle of your site
+    # description = " John Doe's Personal blog about everything" # Description of your site
     opengraph = true
     readmore = false # Show "Read more" button in list if true
     leftsidebar = false # Move sidebar to the left side if true
@@ -34,8 +34,8 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
     tags = true # Enable "Tags" widget
     tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
     social = true # Enable "Social" widget
-    social_facebook = "username"
-    social_twitter = "username"
-    social_linkedin = "username"
-    social_github = "username"
-    social_email = "example@example.com"
+    social_facebook = "https://www.facebook.com/takatomo.honda"
+    social_twitter = "https://twitter.com/takatm0103"
+    social_linkedin = "https://www.linkedin.com/in/takatomo-honda-2b7479b0"
+    social_github = "https://github.com/chaingng"
+    # social_email = "example@example.com"
