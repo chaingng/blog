@@ -1,6 +1,6 @@
 +++
 title = "About Me"
-date = "2014-07-08"
+date = "2017-07-08"
 menu = "main"
 +++
 
@@ -18,10 +18,12 @@ My featured skills and endorsements : Back-End Web Development, Web Scraping, Ru
 July 2016 - July 2017
 
 Business Development Engineering
+
 - collaborating partners and engineering new service never before
 - directing project, designing architecture, programming, software testing and oparating
 
 Archievements
+
 - https://corp.freee.co.jp/news/freee-paypal-1213-5949.html
 - https://corp.freee.co.jp/news/20170329jnb-6167.html
 - https://smaregi.jp/news/press/20170111391.php
@@ -33,10 +35,12 @@ Archievements
 October 2012 - June 2016
 
 R&D Engineering
+
 - developing new competitive and huge soluction service
 - project management, programming, research & developing
 
 Archievements
+
 - http://www.nttdata.com/global/ja/theopen/
 - http://www.nttdata.com/jp/ja/news/services_info/2015/2015103001.html
 - http://www.nikkansports.com/soccer/news/1562866.html
