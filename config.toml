@@ -9,7 +9,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author]
     name = "Takatomo Honda"
-    bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+    # bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
     avatar = "img/avatar.png"
 
 
@@ -19,7 +19,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
     opengraph = true
     readmore = false # Show "Read more" button in list if true
     leftsidebar = false # Move sidebar to the left side if true
-    authorbox = true
+    authorbox = false
     post_navigation = true
     postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
     #postSections = ["blog", "news"] # alternative that shows more than one section's pages
