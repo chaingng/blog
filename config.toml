@@ -5,7 +5,7 @@ paginate = "10" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "UA-87677188-2" # Enable Google Analytics by entering your tracking id
-
+truncated = true # test
 
 [Author]
     name = "Takatomo Honda"
