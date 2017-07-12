@@ -1,0 +1,12 @@
++++
+title = "SRM 647 DIV1 Easy - BuildingTowersEasy x"
+date = 2015-04-12T20:54:00Z
+updated = 2015-08-08T06:50:53Z
+tags = ["山"]
+blogimport = true 
+[author]
+	name = "chngng"
+	uri = "https://www.blogger.com/profile/14196381724208675248"
++++
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">問題 </h3><br /><br /><a href="http://community.topcoder.com/stat?c=problem_statement&amp;pm=13634&amp;rd=16279" target="_blank">http://community.topcoder.com/stat?c=problem_statement&amp;pm=13634&amp;rd=16279</a><br /><br />・N個の建物を建てたい。<br />・建物は１からNまですべて連続していなければならなく、隣合う建物の高さの差は<br />１以内でなければならない。<br />・また、最初の建物の高さは０になる。<br /><br />・加えて、x[i]番目の建物の高さはt[i]以下でなければならない。<br /><br />・このとき、建物の中で最も高い建物の高さを求める。<br /><br /><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">解き方 </h3><br /><a href="http://chngng.blogspot.jp/2014/11/2013-tco-round-1c-easy-thearray.html" target="_blank">2013 1cEasy</a>と類似した、山の問題。<br /><br />条件は以下の２つ。<br /><br />・建物１は高さ０から始まって、そこからの差は１以内ずつとなる。<br />・各位置pについて、すべてのx[i]と比較して最大の高さはt[i]＋abs(p-x[i])以内にならなければいけない。<br /><br />最後に２つの条件を満たすもっとも高い建物の高さが答えになる。<br /><br /><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">コード </h3><br /><div style="background-color: #e3f2fb; border: 1px dotted #CCCCCC; padding: 5px;">class BuildingTowersEasy {<br /><br /><span class="Apple-tab-span" style="white-space: pre;"> </span>public: int maxHeight(int N, vector&lt;int&gt; x, vector&lt;int&gt; t) {<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>int d[N+1];<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>for(int i=1;i&lt;=N;i++)d[i]=i-1;<br /><br /><span class="Apple-tab-span" style="white-space: pre;">  </span>for(int i=1;i&lt;=N;i++){<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>FORE(j,0,x.size()){<br /><span class="Apple-tab-span" style="white-space: pre;">    </span>d[i]=min(d[i],t[j]+abs(i-x[j]));<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>}<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>}<br /><br /><span class="Apple-tab-span" style="white-space: pre;">  </span>return *max_element(d+1,d+1+N);<br /><span class="Apple-tab-span" style="white-space: pre;"> </span>}<br /><br />};</div></div>

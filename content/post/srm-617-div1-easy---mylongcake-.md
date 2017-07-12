@@ -1,0 +1,12 @@
++++
+title = "SRM 617 DIV1 Easy - MyLongCake (○)"
+date = 2014-11-10T19:35:00Z
+updated = 2015-04-03T11:17:25Z
+tags = ["考察"]
+blogimport = true 
+[author]
+	name = "chngng"
+	uri = "https://www.blogger.com/profile/14196381724208675248"
++++
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">問題 </h3><br /><a href="http://community.topcoder.com/stat?c=problem_statement&amp;pm=13137&amp;rd=15850" target="_blank">http://community.topcoder.com/stat?c=problem_statement&amp;pm=13137&amp;rd=15850</a><br /><br />・ある長さｎのケーキがある。<br />・人が何人訪れるかわかっていないが、ｎの約数の人数だけ人が訪れる可能性がある。<br />・１人人が現れた時、あらかじめ分けられたケーキのうち残りの最初から好きな数だけ<br />　分け与えることができる。<br />・このとき、何人訪れた場合でもすべての人に同じ長さだけ均等にケーキをわけられるような<br />　ケーキの分割数を求める。<br /><br /><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">解き方 </h3><br />・訪れる可能性のある人数全てに対し等分にケーキを切り、最後に残ったケーキの分割数が<br />　答えになりそう。<br />・求め方として、すべての約数に対しケーキを分ける箇所すべてを答えに保存して<br />　最後に重複なしの数を返せばよい。<br /><br />→System Passed<br /><br /><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">コード </h3><br /><div style="background-color: #e3f2fb; border: 1px dotted #CCCCCC; padding: 5px;">using namespace std;<br /><br />#define all(c) (c).begin(),(c).end()<br />#define FORE(i,d,e) for(int i=d;i&lt;e;i++)<br />#define FOR(i,s,e) for (int i = int(s); i != int(e); i++)<br />#define FORIT(i,c) for (typeof((c).begin()) i = (c).begin(); i != (c).end(); i++)<br />#define ISEQ(c) (c).begin(), (c).end()<br /><br />class MyLongCake {<br /><br /><span class="Apple-tab-span" style="white-space: pre;"> </span>public:<br /><br /><br /><span class="Apple-tab-span" style="white-space: pre;"> </span>int cut(int n) {<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>set&lt;int&gt; ans;<br /><br /><span class="Apple-tab-span" style="white-space: pre;">  </span>FORE(i,1,n)if(n%i==0){<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>int d=n/i;<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>for(int j=d;j&lt;=n;j+=d)ans.insert(j);<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>}<br /><br /><span class="Apple-tab-span" style="white-space: pre;">  </span>return ans.size();<br /><span class="Apple-tab-span" style="white-space: pre;"> </span>}<br /><br />};</div></div>

@@ -1,0 +1,11 @@
++++
+title = "TCO 2015 1C Middle - UnrelatedPaths"
+date = 2015-05-10T10:37:00Z
+updated = 2015-05-10T10:37:29Z
+blogimport = true 
+[author]
+	name = "chngng"
+	uri = "https://www.blogger.com/profile/14196381724208675248"
++++
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">問題 <br /></h3><br /><a href="http://community.topcoder.com/stat?c=problem_statement&amp;pm=13746&amp;rd=16434" target="_blank">http://community.topcoder.com/stat?c=problem_statement&amp;pm=13746&amp;rd=16434</a><br /><br /><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">解き方 </h3><br />木のルートからDFSでたどっていってパスの数を足していけば良い。<br /><br />ルート０に直接つながっているノードについて、<br />さらにその下にノードがつながっていればそのパスの和、<br />つながっていなければ１を返す。<br /><br /><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">コード </h3><br /><div style="background-color: #e3f2fb; border: 1px dotted #CCCCCC; padding: 5px;">vector&lt;int&gt; p;<br />int n;<br /><br />class UnrelatedPaths {<br /><br /><span class="Apple-tab-span" style="white-space: pre;"> </span>public:<br /><br /><span class="Apple-tab-span" style="white-space: pre;"> </span>int dfs(int x){<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>int ret=0;<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>FORE(i,0,n)if(p[i]==x){<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>ret+=dfs(i+1);<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>}<br /><br /><span class="Apple-tab-span" style="white-space: pre;">  </span>return ret==0 ? 1 : ret;<br /><span class="Apple-tab-span" style="white-space: pre;"> </span>}<br /><br /><span class="Apple-tab-span" style="white-space: pre;"> </span>int maxUnrelatedPaths(vector&lt;int&gt; parent) {<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>p=parent;<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>n=p.size();<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>return dfs(0);<br /><span class="Apple-tab-span" style="white-space: pre;"> </span>}<br /><br />};</div></div>

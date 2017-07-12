@@ -1,0 +1,12 @@
++++
+title = "SRM535 DIV2 -Level2"
+date = 2013-07-03T23:11:00Z
+updated = 2015-04-03T11:23:16Z
+tags = ["数学"]
+blogimport = true 
+[author]
+	name = "chngng"
+	uri = "https://www.blogger.com/profile/14196381724208675248"
++++
+
+<div dir="ltr" style="text-align: left;" trbidi="on">＜問題＞<br />①整数ＧとＬが与えられる。<br />②最大公約数がＧ，かつ最小公倍数がＬである２つの数字の場合の数を返す。<br />　存在しない場合はー１を返す。<br /><br />＜解き方＞<br />２つの数字がＸ、Ｙとすると、Ｘ＊Ｙ＝Ｇ＊Ｌとなる。<br />このままではＧとＬともに１０＾１２と膨大な数のため計算式を工夫する。<br /><br />次に、Ｘ＝a*Gとなるa, Y=b*Gとなるbが必ず存在する。<br />ここで、<br />(a*G)*(b*G)=G*L<br />つまりa*b=L/Gとなるaとbが必ず存在する。<br />また、最大公約数がＧであることから、aとbは互いに素でないといけない。<br />これによりＯ（１０＾６）で計算可能となる。<br /><br />まとめると、<br />a*b=L/G かつ aとbは互いに素=最大公約数が1　となる全てのaとbを求めればよい。<br />そして裏を返すと、LがGで割り切れない場合は-1を返す。<br /><br />＜コード＞<br />class FoxAndGCDLCM {<br /><br /><span class="Apple-tab-span" style="white-space: pre;"> </span>public:<br /><span class="Apple-tab-span" style="white-space: pre;"> </span>long long gcd(long long a,long long b){<br /><br /><span class="Apple-tab-span" style="white-space: pre;">  </span>while(b!=0){<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>long long c=b;<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>b=a%b;<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>a=c;<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>}<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>return a;<br /><span class="Apple-tab-span" style="white-space: pre;"> </span>}<br /><br /><span class="Apple-tab-span" style="white-space: pre;"> </span>long long get(long long G, long long L) {<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>long long ab=L/G,ret=-1;<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>if(L%G!=0)return -1;<br /><br /><span class="Apple-tab-span" style="white-space: pre;">  </span>for(long long a=1;a&lt;=ab/a;a++){<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>if(ab%a==0 &amp;&amp; gcd(a,ab/a)==1){<br /><span class="Apple-tab-span" style="white-space: pre;">    </span>if(ret==-1)ret=G*(a+ab/a);<br /><span class="Apple-tab-span" style="white-space: pre;">    </span>else ret=min(ret,G*(a+ab/a));<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>}<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>}<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>return ret;<br /><span class="Apple-tab-span" style="white-space: pre;"> </span>}<br /><br />};<br /><div><br /></div></div>

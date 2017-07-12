@@ -1,0 +1,12 @@
++++
+title = "SRM 583 DIV1 Easy - TravelOnMars （復習x）"
+date = 2013-08-18T08:34:00Z
+updated = 2015-03-26T20:34:13Z
+tags = ["ループ"]
+blogimport = true 
+[author]
+	name = "chngng"
+	uri = "https://www.blogger.com/profile/14196381724208675248"
++++
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">問題 </h3><br />都市が円状につながっている。<br />各都市には、そこから１ターンでいける都市数が保存されている。<br />始点と終点が与えられた時、移動するための最小ターン数を求める。<br /><br /><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">解き方 </h3><br />グラフの最短距離を求める問題なので、ワーシャルフロイド法が使えないか考える。<br />グラフを作成し、隣り合う都市は１、そこから１ターンで行ける都市は１とし、<br />最後にワーシャルフロイドを走らせる。<br /><br />Challenge<br />一方向だけではなく、順と逆を組み合わせてもよいことに注意。<br /><br /><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">コード </h3><br /><div style="background-color: #e3f2fb; border: 1px dotted #CCCCCC; padding: 5px;">class TravelOnMars {<br /><br /><span class="Apple-tab-span" style="white-space: pre;"> </span>public: int minTimes(vector&lt;int&gt; range, int startCity, int endCity) {<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>int n=range.size(),INF=100000000;<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>int dp[n][n];<br /><br /><span class="Apple-tab-span" style="white-space: pre;">  </span>FORE(i,0,n)FORE(j,0,n)dp[i][j]=INF;<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>FORE(i,0,n){<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>FORE(j,0,n){<br /><span class="Apple-tab-span" style="white-space: pre;">    </span>int l=(i-j+n)%n;<br /><span class="Apple-tab-span" style="white-space: pre;">    </span>int r=(j-i+n)%n;<br /><span class="Apple-tab-span" style="white-space: pre;">    </span>if(min(l,r)&lt;=range[i])dp[i][j]=1;<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>}<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>}<br /><br /><span class="Apple-tab-span" style="white-space: pre;">  </span>FORE(k,0,n)FORE(i,0,n)FORE(j,0,n)dp[i][j]=min(dp[i][j],dp[i][k]+dp[k][j]);<br /><br /><span class="Apple-tab-span" style="white-space: pre;">  </span>return dp[startCity][endCity];<br /><span class="Apple-tab-span" style="white-space: pre;"> </span>}<br /><br />};</div></div>

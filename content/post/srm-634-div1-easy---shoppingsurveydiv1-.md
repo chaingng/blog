@@ -1,0 +1,12 @@
++++
+title = "SRM 634 DIV1 Easy - ShoppingSurveyDiv1 (×)"
+date = 2014-10-13T13:51:00Z
+updated = 2015-04-03T11:36:16Z
+tags = ["全探索"]
+blogimport = true 
+[author]
+	name = "chngng"
+	uri = "https://www.blogger.com/profile/14196381724208675248"
++++
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">問題 </h3><br /><a href="http://community.topcoder.com/stat?c=problem_statement&amp;pm=13455&amp;rd=16077" target="_blank">http://community.topcoder.com/stat?c=problem_statement&amp;pm=13455&amp;rd=16077</a><br /><br />・N人の客がいて、各商品を多くて１つ買うことができる。<br />・また、K種類以上の商品を買うBig Shopperがいる。<br />・商品iを買った人数s[i]がわかっているとき、Big Shopperは最低何人いるか求める。<br /><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">解き方 </h3><br />・問題文をミスリードしてしまった。<br /><br />・貪欲法で、Big Shopperが０人から増やしていきその場合に条件が成立するか<br />　確かめればよい。<br /><br />・確かめ方は、Big Shopperが存在するとき<br />　買う種類はK以上であればよいので全部の商品を買うことにする。<br />　このとき、残った値が（N-Big Shopperの数）×（K-1）以下であればよい。<br /><h3 style="border-bottom: 2px solid slateblue; border-left: 8px solid navy; color: black; padding: 0px 0px 1px 5px;">コード </h3><br /><div style="background-color: #e3f2fb; border: 1px dotted #CCCCCC; padding: 5px;">using namespace std;<br /><br />#define all(c) (c).begin(),(c).end()<br />#define FORE(i,d,e) for(int i=d;i&lt;e;i++)<br />#define FOR(i,s,e) for (int i = int(s); i != int(e); i++)<br />#define FORIT(i,c) for (typeof((c).begin()) i = (c).begin(); i != (c).end(); i++)<br />#define ISEQ(c) (c).begin(), (c).end()<br /><br />class ShoppingSurveyDiv1 {<br /><br /><span class="Apple-tab-span" style="white-space: pre;"> </span>public: int minValue(int N, int K, vector&lt;int&gt; s) {<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>int n=s.size();<br /><br /><span class="Apple-tab-span" style="white-space: pre;">  </span>FORE(i,0,N){<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>int left=0;<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>FORE(j,0,n)if(s[j]&gt;i)left+=s[j]-i;<br /><span class="Apple-tab-span" style="white-space: pre;">   </span>if(left&lt;=(N-i)*(K-1))return i;<br /><span class="Apple-tab-span" style="white-space: pre;">  </span>}<br /><br /><span class="Apple-tab-span" style="white-space: pre;">  </span>return N;<br /><span class="Apple-tab-span" style="white-space: pre;"> </span>}<br /><br />};</div></div>
