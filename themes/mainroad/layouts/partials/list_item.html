@@ -10,6 +10,9 @@
 		<header class="list__header">
 			<h3 class="list__title post__title ">
 				<a href="{{ .RelPermalink }}" rel="bookmark">{{ .Title }}</a>
+				<a href="http://b.hatena.ne.jp/entry/{{ .Permalink }}">
+					<img src="http://b.hatena.ne.jp/entry/image/{{ .Permalink }}" alt="はてなブックマーク - {{ .Title }}" title="はてなブックマーク - {{ .Title }}">
+				</a>
 			</h3>
 			{{- if not .Date.IsZero }}
 			<div class="list__meta meta">
