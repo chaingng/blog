@@ -1,7 +1,7 @@
 ---
 title: "ng-includeで読み込んだパーシャルをキャッシュさせない"
 date: 2017-08-27T10:00:00+09:00
-tags = [ "angularjs"]
+tags: [ "angularjs"]
 ---
 
 angularjsにてhtmlをパーシャルしたい場合は、`ng-include`を使う。
