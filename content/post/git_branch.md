@@ -65,6 +65,10 @@ along with the objects necessary to complete their histories.
 Remote-tracking branches are updated (see the description of <refspec> below for ways to control this behavior).
 ```
 
+以下の例では前回fetchしてから誰かがorigin/devを作成し、  
+新しくremotes/origin/devがリモート追跡ブランチとして追加されていることがわかる。
+
+
 ```
 $ git branch -a
 * demo2
@@ -86,9 +90,6 @@ $ git branch -a
   remotes/origin/demo3
   remotes/origin/dev
 ```
-
-前回fetchしてから誰かがorigin/devを作成し、  
-新しくremotes/origin/devがリモート追跡ブランチとして追加されていることがわかる。
 
 
 # 追跡ブランチ
