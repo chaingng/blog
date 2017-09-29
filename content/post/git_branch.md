@@ -52,7 +52,8 @@ $ git branch -a
   remotes/origin/HEAD -> origin/develop
 ```
 
-このときreotes/(remote)/(branch)で表されるのがリモート追跡ブランチ。  
+このときremotes/(remote)/(branch)で表されるのがリモート追跡ブランチ。  
+
 最後の行はリモートブランチorigin/developがリモート追跡ブランチremotes/origin/HEADに紐付いていることを表す。
 
 ## リモート追跡ブランチの更新
