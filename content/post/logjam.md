@@ -1,5 +1,5 @@
 ---
-title: "logjam攻撃への脆弱性対策"
+title: "logjam脆弱性と対策"
 date: 2017-10-01T10:00:00+09:00
 tags: [ "security"]
 ---
