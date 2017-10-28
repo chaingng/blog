@@ -5,29 +5,33 @@ date: 2017-07-16T00:00:00+09:00
 
 # まとめ
 
+<br>
+
 ## リモートブランチ
-```
 - リモートレポジトリに存在するブランチ
 - (remote)/(branch)で表される
-```
+
+<br>
 
 ## リモート追跡ブランチ
-```
 - ローカルに存在
 - リモートブランチの状態を保持するブランチ
 - リモートへpushすると自動的に作成される
 - fetchでローカルのリモート追跡ブランチの状態が最新化される
-```
+
+
+<br>
 
 ## 追跡ブランチ
-
-```
 - リモートブランチと直接のつながりをもつローカルブランチ
 - git branch / git checkoutにて作成可能
 - git push時にブランチ名が省略可能
-```
+
+<br><br>
 
 # リモート追跡ブランチ
+
+<br>
 
 ## リモート追跡ブランチの定義
 
@@ -38,6 +42,8 @@ date: 2017-07-16T00:00:00+09:00
 ローカルに作成される参照ですが、自分で移動することはできません。ネットワーク越しの操作をしたときに自動的に移動します。 
 リモート追跡ブランチは、前回リモートリポジトリに接続したときにブランチがどの場所を指していたかを示すブックマークのようなものです。
 ```
+
+<br>
 
 ## リモート追跡ブランチの表示
 
@@ -55,6 +61,8 @@ $ git branch -a
 このときremotes/(remote)/(branch)で表されるのがリモート追跡ブランチ。  
 
 最後の行はリモートブランチorigin/developがリモート追跡ブランチremotes/origin/HEADに紐付いていることを表す。
+
+<br>
 
 ## リモート追跡ブランチの更新
 
@@ -91,8 +99,11 @@ $ git branch -a
   remotes/origin/dev
 ```
 
+<br><br>
 
 # 追跡ブランチ
+
+<br>
 
 ## 追跡ブランチの定義
 
@@ -104,6 +115,8 @@ $ git branch -a
 追跡ブランチとは、リモートブランチと直接のつながりを持つローカルブランチのことです。 
 追跡ブランチ上で git pull を実行すると、Git は自動的に取得元のサーバーとブランチを判断します。
 ```
+
+<br>
 
 ## 追跡ブランチの作成
 
@@ -130,6 +143,8 @@ Branch demo2 set up to track remote branch demo2 from origin.
 Switched to a new branch 'demo2'
 ```
 
+<br>
+
 ## ローカルブランチを追跡ブランチにする
 
 git branch -u で可能
@@ -138,6 +153,8 @@ git branch -u で可能
 $ git branch -u origin/serverfix
 Branch serverfix set up to track remote branch serverfix from origin.
 ```
+
+<br>
 
 ## ローカルブランチが追跡ブランチか確認
 
@@ -153,6 +170,7 @@ $ git branch -vv
 
 このときiss53はorigin/iss53、master、serverfixは追跡ブランチで、testingは追跡ブランチではないことがわかる。
 
+<br>
 
 ## 追跡ブランチではgit pushでブランチ名が省略できる
 
