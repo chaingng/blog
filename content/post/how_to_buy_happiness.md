@@ -1,5 +1,5 @@
 ---
-title: "How to buy happiness(幸せをお金で買う方法)"
+title: "幸せをお金で買う方法(TED) - まとめ"
 date: 2017-09-29T10:00:00+09:00
 tags: [ "ted"]
 ---
