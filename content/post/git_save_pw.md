@@ -22,7 +22,6 @@ httpsアクセスの際、githubへのアクセスにはパスワード or perso
 - wincredモード
   - windowsを使っているときに, Mac OSと似た仕組みで保存可能
   
-<br>
 
 ### cashモード
 
@@ -36,7 +35,6 @@ git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=3600'
 ```
 
-<br>
 
 ### storeモード
 ```
@@ -55,7 +53,6 @@ git config --global credential.helper store --file ~/.hoge-credentials
     helper = cache --timeout 30000
 ```
 
-<br>
 
 ### osxkeychainモード
 ```
