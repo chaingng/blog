@@ -8,7 +8,7 @@ menu = "main"
 
 chngng0103@gmail.com
 
-My featured skills and endorsements : Back-End Web Development, Web Scraping, Ruby on Rails, API Development, Test Automation, Network Design, Wireless Networking
+My featured skills and endorsements : Back-End Web Development, Python, Ruby on Rails, API Design & Development, AWS, Web Scraping, Test Automation, Network Design, Wireless Networking
 
 # work history
 ## freee
