@@ -128,6 +128,7 @@ Vagrant.configure("2") do |config|
 
 - デフォルトでは仮想マシンごとにそれぞれ異なるssh keyが払い出される
 - 以下の設定を追加することで、すべての仮想マシンで同じssh keyが設定される
+
 ```
 Vagrant.configure("2") do |config|
     config.ssh.private_key_path = "custom_key_file"
