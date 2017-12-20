@@ -1,6 +1,6 @@
 ---
 title: "[要約]A Better Pip Workflow"
-date: 2017-09-15T00:00:00+09:00
+date: 2017-03-12T00:00:00+09:00
 tags: [ "python"]
 ---
 
