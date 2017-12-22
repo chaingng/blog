@@ -11,6 +11,21 @@ chngng0103@gmail.com
 My featured skills and endorsements : Back-End Web Development, Python, Ruby on Rails, API Design & Development, AWS, Web Scraping, Test Automation, Network Design, Wireless Networking
 
 # work history
+
+## Feasible lab inc.
+
+### CTO
+
+Aug 2017 - Present
+
+Software Engineering, Technical Leading, and Project Management
+
+Archievements
+
+- I built the effective issue tracking service ( https://webkadai.jp/ ).
+- I built the easy web video conference service ( https://fli.videotalk.jp/honda/ ).
+- I developed numerous customer's services ( stock management service, integrated authorization infrastructure service, etc. ).
+
 ## freee
 
 ### Software Engineer
