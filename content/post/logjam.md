@@ -1,5 +1,5 @@
 ---
-title: "logjam脆弱性と対策【Referenceのまとめ】"
+title: "logjam脆弱性と対策"
 date: 2017-03-26T10:00:00+09:00
 tags: [ "security"]
 ---
