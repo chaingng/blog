@@ -1,5 +1,5 @@
 ---
-title: "pythonデータ型ごとのビット数"
+title: "pythonデータ型ごとのメモリサイズ"
 date: 2018-01-15T10:00:00+09:00
 tags: [ "python"]
 ---
@@ -21,6 +21,8 @@ intはデフォルトで28bit
 >>> sys.getsizeof(1 << 10000)
 1360
 ```
+
+[Python3.0](https://docs.python.jp/3/whatsnew/3.0.html)をみると、整数型の上限が廃止されている。
 
 ## 浮動小数
 デフォルトで24bit
