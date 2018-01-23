@@ -1,6 +1,6 @@
 ---
 title: "IP datacast solution"
-date: 2018-01-27T10:00:00+09:00
+date: 2018-01-23T10:00:00+09:00
 tags: [ "network"]
 ---
 
