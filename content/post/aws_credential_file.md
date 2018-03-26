@@ -35,6 +35,7 @@ awsでよく使われるライブラリ、boto3では以下の[優先順位](htt
 
 以下のように~/.aws/credentialsにcredential情報を書く
 
+
 ```
 [default]
 aws_access_key_id=foo
