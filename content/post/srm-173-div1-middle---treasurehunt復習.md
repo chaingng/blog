@@ -2,7 +2,8 @@
 title = "SRM 173 DIV1 Middle - TreasureHunt　（復習××）"
 date = 2014-03-30T16:01:00Z
 updated = 2014-09-15T12:41:56Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
