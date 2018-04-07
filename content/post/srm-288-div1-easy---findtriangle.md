@@ -3,7 +3,8 @@ title = "SRM 288 DIV1 Easy - FindTriangle"
 date = 2014-01-30T08:05:00Z
 updated = 2015-03-26T19:44:45Z
 tags = ["実装"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
