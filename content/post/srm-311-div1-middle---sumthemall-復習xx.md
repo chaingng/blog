@@ -2,7 +2,8 @@
 title = "SRM 311 DIV1 Middle - SumThemAll （復習xx）"
 date = 2014-03-30T10:47:00Z
 updated = 2014-09-15T11:22:01Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
