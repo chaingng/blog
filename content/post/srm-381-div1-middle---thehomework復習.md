@@ -2,7 +2,8 @@
 title = "SRM 381 DIV1 Middle - TheHomework　（復習○）"
 date = 2014-05-15T08:38:00Z
 updated = 2014-06-06T08:00:25Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
