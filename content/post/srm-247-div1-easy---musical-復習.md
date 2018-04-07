@@ -3,7 +3,8 @@ title = "SRM 247 DIV1 Easy - Musical (復習○)"
 date = 2014-02-08T22:33:00Z
 updated = 2015-04-03T11:27:21Z
 tags = ["ループ"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
