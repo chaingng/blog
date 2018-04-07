@@ -2,7 +2,8 @@
 title = "SRM 227 DIV1 Middle - TreeSpreading　（復習×○）"
 date = 2014-03-08T20:53:00Z
 updated = 2014-08-20T20:30:30Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
