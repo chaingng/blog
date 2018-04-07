@@ -2,7 +2,8 @@
 title = "SRM 299 DIV1 Middle -PalindromePartition　（復習××）"
 date = 2014-03-15T08:33:00Z
 updated = 2014-08-28T17:57:44Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
