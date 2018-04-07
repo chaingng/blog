@@ -3,7 +3,8 @@ title = "SRM 281 DIV1 Easy - IntegerGenerator (復習○)"
 date = 2014-02-08T11:01:00Z
 updated = 2015-04-03T11:10:42Z
 tags = ["考察"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
