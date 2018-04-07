@@ -2,7 +2,8 @@
 title = "SRM 338 DIV1 Middle - RandomSwaps　（復習××）"
 date = 2014-03-16T18:27:00Z
 updated = 2014-09-09T19:20:26Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
