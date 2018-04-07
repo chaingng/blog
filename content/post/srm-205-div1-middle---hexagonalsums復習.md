@@ -2,7 +2,8 @@
 title = "SRM 205 DIV1 Middle - HexagonalSums　（復習××○）"
 date = 2014-03-09T17:16:00Z
 updated = 2014-08-24T08:27:48Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
