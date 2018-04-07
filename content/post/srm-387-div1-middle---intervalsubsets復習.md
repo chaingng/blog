@@ -2,7 +2,8 @@
 title = "SRM 387 DIV1 Middle - IntervalSubsets　（復習×）"
 date = 2014-05-03T10:57:00Z
 updated = 2014-06-06T08:01:13Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
