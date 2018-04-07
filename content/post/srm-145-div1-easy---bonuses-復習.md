@@ -3,7 +3,8 @@ title = "SRM 145 DIV1 Easy - Bonuses （復習○）"
 date = 2014-01-25T15:47:00Z
 updated = 2015-03-26T19:46:01Z
 tags = ["実装"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
