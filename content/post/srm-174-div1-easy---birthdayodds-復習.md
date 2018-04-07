@@ -3,7 +3,8 @@ title = "SRM 174 DIV1 Easy - BirthdayOdds (復習×○)"
 date = 2014-02-11T00:24:00Z
 updated = 2015-04-03T11:06:47Z
 tags = ["確率"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
