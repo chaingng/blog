@@ -3,7 +3,8 @@ title = "2013 TCO Round 1C Easy - TheArray (×○)"
 date = 2014-11-08T11:57:00Z
 updated = 2015-04-03T11:45:03Z
 tags = ["山"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
