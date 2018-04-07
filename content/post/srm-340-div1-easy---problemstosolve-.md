@@ -3,7 +3,8 @@ title = "SRM 340 DIV1 Easy - ProblemsToSolve ××○"
 date = 2014-01-20T19:09:00Z
 updated = 2015-08-14T13:42:11Z
 tags = ["考察"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
