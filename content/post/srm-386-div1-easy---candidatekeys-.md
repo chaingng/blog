@@ -2,7 +2,8 @@
 title = "SRM 386 DIV1 Easy - CandidateKeys △"
 date = 2015-07-26T04:58:00Z
 updated = 2015-07-26T04:58:46Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
