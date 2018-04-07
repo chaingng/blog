@@ -2,7 +2,8 @@
 title = "SRM 212 DIV1 Middle - SumOfSquareRoots　（復習×○）"
 date = 2014-03-09T17:58:00Z
 updated = 2014-08-24T12:14:34Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
