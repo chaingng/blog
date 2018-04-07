@@ -3,7 +3,8 @@ title = "SRM 310 DIV1 Easy - PyramidOfCubes (復習○)"
 date = 2014-01-25T18:34:00Z
 updated = 2015-04-03T11:13:18Z
 tags = ["シミュレーション"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
