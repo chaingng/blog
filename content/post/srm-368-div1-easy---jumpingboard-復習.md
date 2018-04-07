@@ -4,6 +4,7 @@ date = 2014-02-21T00:19:00Z
 updated = 2015-03-26T19:58:56Z
 tags = ["移動"]
 blogimport = true 
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
