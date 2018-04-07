@@ -2,7 +2,8 @@
 title = "SRM 288 DIV1 Middle - CannonBalls　（復習×○）"
 date = 2014-03-10T08:26:00Z
 updated = 2014-08-25T21:53:04Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
