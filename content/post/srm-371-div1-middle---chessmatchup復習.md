@@ -2,7 +2,8 @@
 title = "SRM 371 DIV1 Middle - ChessMatchup　（復習○）"
 date = 2014-03-08T15:38:00Z
 updated = 2014-07-25T10:11:29Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
