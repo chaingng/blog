@@ -3,7 +3,8 @@ title = "SRM 302 DIV1 Easy - DivisorInc （復習××○）"
 date = 2014-02-11T21:09:00Z
 updated = 2015-04-10T19:23:01Z
 tags = ["数学"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
