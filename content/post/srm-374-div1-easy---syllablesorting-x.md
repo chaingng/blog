@@ -2,7 +2,8 @@
 title = "SRM 374 DIV1 Easy - SyllableSorting x"
 date = 2015-08-08T06:42:00Z
 updated = 2015-08-08T06:42:38Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
