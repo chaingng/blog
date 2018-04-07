@@ -2,7 +2,8 @@
 title = "SRM 399 DIV1 Middle - BinarySum （復習x）"
 date = 2014-04-27T13:11:00Z
 updated = 2014-06-27T19:08:42Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
