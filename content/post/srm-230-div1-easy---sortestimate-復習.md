@@ -3,7 +3,8 @@ title = "SRM 230 DIV1 Easy - SortEstimate （復習○）"
 date = 2014-02-09T08:53:00Z
 updated = 2015-04-03T11:05:58Z
 tags = ["二分探索"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
