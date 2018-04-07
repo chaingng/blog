@@ -3,7 +3,8 @@ title = "2012 TCO Round 1B Easy - FoxAndKgram (○)"
 date = 2014-10-29T19:31:00Z
 updated = 2015-03-26T19:23:01Z
 tags = ["全探索"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
