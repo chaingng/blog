@@ -3,7 +3,8 @@ title = "SRM 382 DIV1 Easy - CollectingRiders (復習×○)"
 date = 2014-02-19T21:28:00Z
 updated = 2015-03-26T19:41:13Z
 tags = ["実装"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
