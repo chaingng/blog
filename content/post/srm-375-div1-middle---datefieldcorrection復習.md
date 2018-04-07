@@ -2,7 +2,8 @@
 title = "SRM 375 DIV1 Middle - DateFieldCorrection　（復習○）"
 date = 2014-05-12T23:00:00Z
 updated = 2014-06-06T08:00:49Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
