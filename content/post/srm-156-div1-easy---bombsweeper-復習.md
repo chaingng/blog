@@ -3,7 +3,8 @@ title = "SRM 156 DIV1 Easy - BombSweeper （復習○）"
 date = 2014-02-11T10:11:00Z
 updated = 2015-04-03T11:07:32Z
 tags = ["確率"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
