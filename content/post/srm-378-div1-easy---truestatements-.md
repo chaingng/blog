@@ -2,7 +2,8 @@
 title = "SRM 378 DIV1 Easy - TrueStatements ○"
 date = 2015-08-04T06:20:00Z
 updated = 2015-08-04T06:20:07Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
