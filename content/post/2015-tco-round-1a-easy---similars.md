@@ -3,7 +3,8 @@ title = "2015 TCO Round 1A Easy - Similars"
 date = 2015-04-19T10:46:00Z
 updated = 2015-07-25T10:07:03Z
 tags = ["全探索"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
