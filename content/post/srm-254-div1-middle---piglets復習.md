@@ -2,7 +2,8 @@
 title = "SRM 254 DIV1 Middle - Piglets　（復習××）"
 date = 2014-03-22T11:05:00Z
 updated = 2014-09-10T12:29:03Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
