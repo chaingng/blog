@@ -3,7 +3,8 @@ title = "SRM 286 DIV1 Easy - ExtraBall (復習×○)"
 date = 2014-01-27T21:50:00Z
 updated = 2015-04-03T11:07:32Z
 tags = ["確率"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
