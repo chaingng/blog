@@ -3,7 +3,8 @@ title = "2014 TCO Round 2A Easy - SixteenBricks (×)"
 date = 2014-10-29T18:11:00Z
 updated = 2015-03-26T20:03:39Z
 tags = ["考察"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
