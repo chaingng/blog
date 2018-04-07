@@ -2,7 +2,8 @@
 title = "SRM 196 DIV1 Middle - Assemble　（復習××）"
 date = 2014-04-11T21:06:00Z
 updated = 2014-09-17T19:19:15Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
