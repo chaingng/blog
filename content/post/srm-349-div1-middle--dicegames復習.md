@@ -2,7 +2,8 @@
 title = "SRM 349 DIV1 Middle -DiceGames　（復習×○）"
 date = 2014-03-15T16:23:00Z
 updated = 2014-09-05T18:57:39Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
