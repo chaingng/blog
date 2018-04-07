@@ -3,7 +3,8 @@ title = "2013 TCO Round 2C Easy - DancingFoxes (×)"
 date = 2014-10-29T15:45:00Z
 updated = 2015-03-26T19:29:45Z
 tags = ["状態遷移"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
