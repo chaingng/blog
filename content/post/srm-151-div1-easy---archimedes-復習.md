@@ -3,7 +3,8 @@ title = "SRM 151 DIV1 Easy - Archimedes (復習×○)"
 date = 2014-02-11T09:25:00Z
 updated = 2015-03-26T20:31:12Z
 tags = ["数学"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
