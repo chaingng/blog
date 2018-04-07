@@ -2,7 +2,8 @@
 title = "SRM 298 DIV1 Middle - OrderDoesMatter　（復習○）"
 date = 2014-05-12T08:32:00Z
 updated = 2014-06-06T08:01:01Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
