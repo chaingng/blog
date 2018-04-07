@@ -3,7 +3,8 @@ title = "2013 TCO Round 1A Easy - HouseBuilding (○)"
 date = 2014-10-29T16:11:00Z
 updated = 2015-03-26T19:23:55Z
 tags = ["全探索"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
