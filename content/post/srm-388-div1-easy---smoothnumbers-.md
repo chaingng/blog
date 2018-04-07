@@ -2,7 +2,8 @@
 title = "SRM 388 DIV1 Easy - SmoothNumbers ○"
 date = 2015-07-25T05:21:00Z
 updated = 2015-07-25T05:21:19Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
