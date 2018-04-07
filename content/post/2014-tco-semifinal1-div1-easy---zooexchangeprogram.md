@@ -3,7 +3,8 @@ title = "2014 TCO Semifinal1 DIV1 Easy - ZooExchangeProgram"
 date = 2015-04-22T15:53:00Z
 updated = 2015-04-22T15:53:38Z
 tags = ["全探索"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
