@@ -3,7 +3,8 @@ title = "2014 TCO Round 2B Easy - SwitchingGame (○)"
 date = 2014-10-28T22:14:00Z
 updated = 2015-03-26T19:11:25Z
 tags = ["状態遷移"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
