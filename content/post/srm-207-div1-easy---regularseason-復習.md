@@ -3,7 +3,8 @@ title = "SRM 207 DIV1 Easy - RegularSeason (復習○)"
 date = 2014-01-25T20:56:00Z
 updated = 2015-03-26T19:45:18Z
 tags = ["実装"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
