@@ -3,7 +3,8 @@ title = "SRM 245 DIV1 Easy - Flush (復習×○)"
 date = 2014-02-09T00:04:00Z
 updated = 2015-03-26T19:43:30Z
 tags = ["実装"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
