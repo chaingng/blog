@@ -2,7 +2,8 @@
 title = "SRM 387 DIV1 Easy - FoxesOfTheRoundTable △"
 date = 2015-07-25T06:48:00Z
 updated = 2015-07-25T06:48:08Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
