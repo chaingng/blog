@@ -2,7 +2,8 @@
 title = "SRM 388 DIV1 Middle - InformFriends　（復習××）"
 date = 2014-03-26T19:46:00Z
 updated = 2014-09-13T08:09:35Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
