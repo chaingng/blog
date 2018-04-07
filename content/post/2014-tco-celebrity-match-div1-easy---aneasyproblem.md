@@ -3,7 +3,8 @@ title = "2014 TCO Celebrity Match DIV1 Easy - AnEasyProblem"
 date = 2015-04-22T15:34:00Z
 updated = 2015-04-22T15:35:51Z
 tags = ["累積和"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
