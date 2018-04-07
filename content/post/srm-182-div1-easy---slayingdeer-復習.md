@@ -3,7 +3,8 @@ title = "SRM 182 DIV1 Easy - SlayingDeer （復習○）"
 date = 2014-02-09T17:52:00Z
 updated = 2015-04-03T11:12:47Z
 tags = ["シミュレーション"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
