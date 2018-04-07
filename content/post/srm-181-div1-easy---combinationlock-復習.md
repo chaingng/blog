@@ -3,7 +3,8 @@ title = "SRM 181 DIV1 Easy - CombinationLock (復習×○)"
 date = 2014-02-09T20:34:00Z
 updated = 2015-04-03T11:27:06Z
 tags = ["ループ"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
