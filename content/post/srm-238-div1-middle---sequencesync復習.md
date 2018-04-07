@@ -2,7 +2,8 @@
 title = "SRM 238 DIV1 Middle - SequenceSync　（復習×）"
 date = 2014-04-15T08:31:00Z
 updated = 2014-06-30T18:46:54Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
