@@ -3,7 +3,8 @@ title = "SRM 150 DIV1 Easy - InterestingDigits (復習×○)"
 date = 2014-02-11T11:41:00Z
 updated = 2015-03-26T19:25:52Z
 tags = ["全探索"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
