@@ -2,7 +2,8 @@
 title = "SRM 392 DIV1 Easy - TwoStringMasks x"
 date = 2015-07-24T18:02:00Z
 updated = 2015-07-24T18:02:12Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
