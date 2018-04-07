@@ -2,7 +2,8 @@
 title = "SRM 395 DIV1 Easy - StreetWalking ○"
 date = 2015-07-24T16:14:00Z
 updated = 2015-07-24T16:15:33Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
