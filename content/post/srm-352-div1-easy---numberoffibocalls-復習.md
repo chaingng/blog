@@ -3,7 +3,8 @@ title = "SRM 352 DIV1 Easy - NumberofFiboCalls （復習○）"
 date = 2014-01-18T09:29:00Z
 updated = 2015-03-26T19:54:39Z
 tags = ["DP"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
