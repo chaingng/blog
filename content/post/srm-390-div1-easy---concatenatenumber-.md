@@ -2,7 +2,8 @@
 title = "SRM 390 DIV1 Easy - ConcatenateNumber ○"
 date = 2015-07-25T04:40:00Z
 updated = 2015-07-25T04:40:30Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
