@@ -3,7 +3,8 @@ title = "2014 TCO Semifinal2 DIV1 Easy - PlankTiling"
 date = 2015-04-22T22:02:00Z
 updated = 2015-04-22T22:02:29Z
 tags = ["考察"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
