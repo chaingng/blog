@@ -3,7 +3,8 @@ title = "SRM 287 DIV1 Easy - TwoEquations (復習○)"
 date = 2014-01-28T08:38:00Z
 updated = 2015-03-26T19:44:52Z
 tags = ["実装"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
