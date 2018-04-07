@@ -2,7 +2,8 @@
 title = "2015 TCO Round 2C Easy - YetAnotherCardGame x"
 date = 2015-07-26T05:23:00Z
 updated = 2015-07-28T04:05:38Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
