@@ -2,7 +2,8 @@
 title = "SRM 253 DIV1 Middle - AlphabetCount　（復習××）"
 date = 2014-03-12T08:18:00Z
 updated = 2014-08-27T22:31:05Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
