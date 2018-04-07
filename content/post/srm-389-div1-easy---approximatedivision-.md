@@ -2,7 +2,8 @@
 title = "SRM 389 DIV1 Easy - ApproximateDivision ○"
 date = 2015-07-25T05:00:00Z
 updated = 2015-07-25T05:00:58Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
