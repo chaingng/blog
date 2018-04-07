@@ -2,7 +2,8 @@
 title = "SRM 367 DIV1 Middle - DeviceProgramming （復習x）"
 date = 2014-05-17T13:24:00Z
 updated = 2014-06-17T19:35:49Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
