@@ -2,7 +2,8 @@
 title = "SRM 330 DIV1 Middle - PrefixFreeSubsets　（復習×○）"
 date = 2014-03-29T08:25:00Z
 updated = 2014-09-14T07:11:00Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
