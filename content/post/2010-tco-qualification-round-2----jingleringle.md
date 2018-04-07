@@ -3,7 +3,8 @@ title = "2010 TCO Qualification Round 2 -  JingleRingle"
 date = 2014-10-30T09:58:00Z
 updated = 2015-03-26T19:29:23Z
 tags = ["貪欲法"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
