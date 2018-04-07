@@ -2,7 +2,8 @@
 title = "SRM 301 DIV1 Middle - EscapingJail　（復習×○）"
 date = 2014-03-10T20:49:00Z
 updated = 2014-08-26T19:48:10Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
