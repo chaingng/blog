@@ -3,7 +3,8 @@ title = "2011 TCO Online Round 1 - TripleStrings"
 date = 2014-11-10T19:29:00Z
 updated = 2015-04-03T11:30:37Z
 tags = ["文字列"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
