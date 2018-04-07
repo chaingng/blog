@@ -3,7 +3,8 @@ title = "2014 TCO Round 1A Easy - EllysSortingTrimmer (○)"
 date = 2014-10-28T20:40:00Z
 updated = 2015-04-03T11:34:26Z
 tags = ["状態遷移"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
