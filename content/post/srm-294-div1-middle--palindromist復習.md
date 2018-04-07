@@ -2,7 +2,8 @@
 title = "SRM 294 DIV1 Middle -Palindromist　（復習××）"
 date = 2014-03-16T09:32:00Z
 updated = 2014-09-08T19:00:02Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
