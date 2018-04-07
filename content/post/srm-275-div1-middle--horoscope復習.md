@@ -2,7 +2,8 @@
 title = "SRM 275 DIV1 Middle -Horoscope　（復習○）"
 date = 2014-03-14T07:41:00Z
 updated = 2014-07-20T08:38:58Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
