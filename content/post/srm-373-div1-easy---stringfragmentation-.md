@@ -2,7 +2,8 @@
 title = "SRM 373 DIV1 Easy - StringFragmentation ○"
 date = 2015-08-09T20:42:00Z
 updated = 2015-08-09T20:42:02Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
