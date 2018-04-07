@@ -2,7 +2,8 @@
 title = "SRM 375 DIV1 Easy - DivisibleByDigits ○"
 date = 2015-08-07T13:44:00Z
 updated = 2015-08-07T13:44:09Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
