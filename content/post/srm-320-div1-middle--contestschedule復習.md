@@ -2,7 +2,8 @@
 title = "SRM 320 DIV1 Middle -ContestSchedule　（復習×○）"
 date = 2014-03-15T09:26:00Z
 updated = 2014-09-03T15:37:12Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
