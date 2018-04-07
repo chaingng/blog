@@ -2,7 +2,8 @@
 title = "SRM 228 DIV1 Middle -BagsOfGold　（復習××）"
 date = 2014-03-15T13:49:00Z
 updated = 2014-09-03T15:37:55Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
