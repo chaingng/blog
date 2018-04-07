@@ -3,6 +3,7 @@ title = "SRM 370 DIV1 Middle - ConnectTheCities　（復習××）"
 date = 2014-03-23T23:22:00Z
 updated = 2014-09-11T12:27:56Z
 blogimport = true 
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
