@@ -2,7 +2,8 @@
 title = "SRM 499 DIV1 Easy - ColorfulRabbits ○"
 date = 2015-05-09T16:18:00Z
 updated = 2015-08-09T20:59:35Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
