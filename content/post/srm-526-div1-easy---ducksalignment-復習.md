@@ -3,7 +3,8 @@ title = "SRM 526 DIV1 Easy - DucksAlignment （復習○）"
 date = 2013-10-12T14:08:00Z
 updated = 2015-03-26T20:38:27Z
 tags = ["移動"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
