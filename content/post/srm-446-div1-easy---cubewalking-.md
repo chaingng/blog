@@ -2,7 +2,8 @@
 title = "SRM 446 DIV1 Easy - CubeWalking ○"
 date = 2015-05-05T18:15:00Z
 updated = 2015-07-28T04:50:13Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
