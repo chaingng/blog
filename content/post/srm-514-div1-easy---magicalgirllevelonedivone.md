@@ -2,7 +2,8 @@
 title = "SRM 514 DIV1 Easy - MagicalGirlLevelOneDivOne"
 date = 2015-05-29T22:28:00Z
 updated = 2015-05-29T22:28:16Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
