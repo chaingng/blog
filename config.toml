@@ -1,5 +1,5 @@
 baseurl = "https://chaingng.github.io"
-title = "takatomo's blog"
+title = "Hack Engineering"
 languageCode = "ja"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
