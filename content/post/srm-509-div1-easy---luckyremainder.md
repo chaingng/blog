@@ -2,7 +2,8 @@
 title = "SRM 509 DIV1 Easy - LuckyRemainder"
 date = 2015-05-10T20:58:00Z
 updated = 2015-05-10T20:58:58Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
