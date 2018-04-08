@@ -2,7 +2,8 @@
 title = "SRM 414 DIV1 Easy - Embassy"
 date = 2015-05-09T23:18:00Z
 updated = 2015-05-09T23:18:35Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
