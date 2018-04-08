@@ -2,7 +2,8 @@
 title = "SRM 515 DIV1 Middle - NewItemShop　（復習×××）"
 date = 2014-03-03T22:44:00Z
 updated = 2014-08-17T11:29:37Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
