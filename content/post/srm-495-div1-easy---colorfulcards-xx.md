@@ -2,7 +2,8 @@
 title = "SRM 495 DIV1 Easy - ColorfulCards xx"
 date = 2015-05-10T10:52:00Z
 updated = 2015-08-06T09:59:20Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
