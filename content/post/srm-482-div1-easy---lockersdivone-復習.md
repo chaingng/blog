@@ -3,7 +3,8 @@ title = "SRM 482 DIV1 Easy - LockersDivOne （復習○）"
 date = 2013-10-18T08:44:00Z
 updated = 2015-03-26T19:28:27Z
 tags = ["全探索"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
