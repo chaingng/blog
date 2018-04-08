@@ -3,7 +3,8 @@ title = "SRM 417 DIV1 Easy - TemplateMatching （復習○）"
 date = 2014-02-22T09:50:00Z
 updated = 2015-03-26T19:40:35Z
 tags = ["実装"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
