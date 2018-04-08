@@ -2,7 +2,8 @@
 title = "SRM 551 DIV1 Easy - ColorfulChocolates"
 date = 2015-05-17T13:17:00Z
 updated = 2015-05-17T13:17:49Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
