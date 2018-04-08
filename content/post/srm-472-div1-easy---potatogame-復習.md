@@ -3,7 +3,8 @@ title = "SRM 472 DIV1 Easy - PotatoGame (復習×○)"
 date = 2014-02-01T11:26:00Z
 updated = 2015-03-26T20:05:55Z
 tags = ["２人ゲーム"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
