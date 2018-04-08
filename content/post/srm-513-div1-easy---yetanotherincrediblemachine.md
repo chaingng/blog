@@ -2,7 +2,8 @@
 title = "SRM 513 DIV1 Easy - YetAnotherIncredibleMachine"
 date = 2015-05-10T12:55:00Z
 updated = 2015-05-10T12:55:06Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
