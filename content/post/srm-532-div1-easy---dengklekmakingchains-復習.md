@@ -3,7 +3,8 @@ title = "SRM 532 DIV1 Easy - DengklekMakingChains (復習××)"
 date = 2013-09-29T17:48:00Z
 updated = 2015-04-03T11:13:18Z
 tags = ["シミュレーション"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
