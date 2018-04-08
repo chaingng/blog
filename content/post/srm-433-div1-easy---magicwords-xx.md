@@ -2,7 +2,8 @@
 title = "SRM 433 DIV1 Easy - MagicWords xx"
 date = 2015-05-09T17:40:00Z
 updated = 2015-08-08T07:02:02Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
