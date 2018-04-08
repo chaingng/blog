@@ -3,7 +3,8 @@ title = "SRM 488 DIV1 Easy - TheBoredomDivOne (復習××)"
 date = 2014-02-01T14:05:00Z
 updated = 2015-04-10T15:50:24Z
 tags = ["DP"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
