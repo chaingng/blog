@@ -3,7 +3,8 @@ title = "SRM 564 DIV1 Easy - KnightCircuit2 （復習○）"
 date = 2013-08-18T16:36:00Z
 updated = 2015-05-24T11:00:44Z
 tags = ["移動"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
