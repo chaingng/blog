@@ -2,7 +2,8 @@
 title = "SRM 432 DIV1 Easy - LampsGrid ○"
 date = 2015-05-05T23:35:00Z
 updated = 2015-08-08T07:01:41Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
