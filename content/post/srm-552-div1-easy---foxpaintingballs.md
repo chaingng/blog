@@ -2,7 +2,8 @@
 title = "SRM 552 DIV1 Easy - FoxPaintingBalls"
 date = 2015-05-30T19:45:00Z
 updated = 2015-05-30T19:45:21Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
