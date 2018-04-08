@@ -2,7 +2,8 @@
 title = "SRM 452 DIV1 Easy - NotTwo ○"
 date = 2015-05-05T18:09:00Z
 updated = 2015-07-28T04:52:55Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
