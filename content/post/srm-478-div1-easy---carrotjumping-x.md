@@ -2,7 +2,8 @@
 title = "SRM 478 DIV1 Easy - CarrotJumping x"
 date = 2015-05-09T16:48:00Z
 updated = 2015-08-09T20:54:42Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
