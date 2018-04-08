@@ -3,7 +3,8 @@ title = "SRM 534 DIV1 Middle - EllysNumbers　（復習×××）"
 date = 2014-03-02T23:13:00Z
 updated = 2015-04-03T11:35:05Z
 tags = ["数学"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
