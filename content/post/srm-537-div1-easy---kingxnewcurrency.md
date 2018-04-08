@@ -2,7 +2,8 @@
 title = "SRM 537 DIV1 Easy - KingXNewCurrency"
 date = 2015-05-17T13:35:00Z
 updated = 2015-05-17T13:35:16Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
