@@ -2,7 +2,8 @@
 title = "SRM 512 DIV1 Easy - MysteriousRestaurant"
 date = 2015-05-10T13:06:00Z
 updated = 2015-05-10T13:06:26Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
