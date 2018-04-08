@@ -2,7 +2,8 @@
 title = "SRM 502 DIV1 Easy - TheLotteryBothDivs x"
 date = 2015-05-10T15:56:00Z
 updated = 2015-08-09T21:01:59Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
