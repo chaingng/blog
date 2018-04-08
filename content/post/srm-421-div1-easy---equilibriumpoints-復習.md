@@ -3,7 +3,8 @@ title = "SRM 421 DIV1 Easy - EquilibriumPoints (復習○)"
 date = 2014-02-01T16:46:00Z
 updated = 2015-03-26T20:36:56Z
 tags = ["探索箇所限定"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
