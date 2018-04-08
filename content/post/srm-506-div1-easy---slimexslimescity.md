@@ -2,7 +2,8 @@
 title = "SRM 506 DIV1 Easy - SlimeXSlimesCity"
 date = 2015-05-09T15:55:00Z
 updated = 2015-05-09T15:55:01Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
