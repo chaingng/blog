@@ -2,7 +2,8 @@
 title = "SRM 556 DIV1 Middle - LeftRightDigitsGame2　（復習×××）"
 date = 2014-02-23T14:50:00Z
 updated = 2014-08-18T20:09:44Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
