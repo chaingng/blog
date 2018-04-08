@@ -3,7 +3,8 @@ title = "SRM 416 DIV1 Easy - NextNumber （復習○）"
 date = 2014-01-25T17:40:00Z
 updated = 2015-05-09T22:54:32Z
 tags = ["数学"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
