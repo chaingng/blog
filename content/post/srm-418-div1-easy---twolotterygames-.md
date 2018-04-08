@@ -2,7 +2,8 @@
 title = "SRM 418 DIV1 Easy - TwoLotteryGames ○"
 date = 2015-05-05T18:02:00Z
 updated = 2015-08-09T20:49:10Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
