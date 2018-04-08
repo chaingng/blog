@@ -2,7 +2,8 @@
 title = "SRM 456 DIV1 Easy - SilverDistance x"
 date = 2015-05-03T22:39:00Z
 updated = 2015-07-28T04:54:48Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
