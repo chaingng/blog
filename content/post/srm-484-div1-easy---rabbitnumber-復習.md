@@ -3,7 +3,8 @@ title = "SRM 484 DIV1 Easy - RabbitNumber (復習×)"
 date = 2014-02-01T12:17:00Z
 updated = 2015-03-26T20:03:39Z
 tags = ["考察"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
