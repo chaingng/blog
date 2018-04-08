@@ -2,7 +2,8 @@
 title = "SRM 420 DIV1 Easy - SolitaireSimulation ○"
 date = 2015-05-05T18:54:00Z
 updated = 2015-08-09T20:50:27Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
