@@ -3,7 +3,8 @@ title = "SRM 428 DIV1 Easy - TheLuckyString (復習×○)"
 date = 2013-10-16T20:48:00Z
 updated = 2015-03-26T19:28:34Z
 tags = ["全探索"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
