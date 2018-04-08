@@ -3,7 +3,8 @@ title = "SRM 441 DIV1 Easy - PerfectPermutation (復習○)"
 date = 2014-02-01T14:59:00Z
 updated = 2015-03-26T20:34:13Z
 tags = ["ループ"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
