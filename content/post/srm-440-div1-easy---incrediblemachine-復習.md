@@ -3,7 +3,8 @@ title = "SRM 440 DIV1 Easy - IncredibleMachine (復習××)"
 date = 2014-02-05T19:41:00Z
 updated = 2015-04-03T11:32:46Z
 tags = ["二分探索"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
