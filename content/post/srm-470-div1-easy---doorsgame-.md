@@ -2,7 +2,8 @@
 title = "SRM 470 DIV1 Easy - DoorsGame ○"
 date = 2015-05-04T21:43:00Z
 updated = 2015-08-08T07:17:06Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
