@@ -2,7 +2,8 @@
 title = "SRM 404 DIV1 Easy - RevealTriangle ○"
 date = 2015-04-29T22:11:00Z
 updated = 2015-08-08T07:08:16Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
