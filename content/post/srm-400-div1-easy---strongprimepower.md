@@ -3,7 +3,8 @@ title = "SRM 400 DIV1 Easy - StrongPrimePower"
 date = 2015-04-28T20:55:00Z
 updated = 2015-04-28T20:56:12Z
 tags = ["全探索"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
