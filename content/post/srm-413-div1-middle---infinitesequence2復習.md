@@ -2,7 +2,8 @@
 title = "SRM 413 DIV1 Middle - InfiniteSequence2　（復習×○）"
 date = 2014-03-10T20:12:00Z
 updated = 2014-08-25T21:46:14Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
