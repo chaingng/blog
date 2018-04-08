@@ -2,7 +2,8 @@
 title = "SRM 569 DIV1 Easy - TheDevice （復習○）"
 date = 2013-08-18T09:41:00Z
 updated = 2015-05-25T09:45:35Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
