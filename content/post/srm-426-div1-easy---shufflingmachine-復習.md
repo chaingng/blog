@@ -3,7 +3,8 @@ title = "SRM 426 DIV1 Easy - ShufflingMachine (復習×)"
 date = 2014-02-01T19:00:00Z
 updated = 2015-03-26T19:31:08Z
 tags = ["貪欲法"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
