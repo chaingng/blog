@@ -2,7 +2,8 @@
 title = "SRM 491 DIV1 Easy - FoxMakingDice"
 date = 2015-05-09T16:29:00Z
 updated = 2015-05-09T16:29:58Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
