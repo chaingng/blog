@@ -2,7 +2,8 @@
 title = "SRM 423 DIV1 Easy - TheTower x"
 date = 2015-05-09T15:38:00Z
 updated = 2015-08-09T20:51:04Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
