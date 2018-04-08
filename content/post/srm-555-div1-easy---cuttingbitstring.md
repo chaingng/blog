@@ -2,7 +2,8 @@
 title = "SRM 555 DIV1 Easy - CuttingBitString"
 date = 2015-05-17T13:06:00Z
 updated = 2015-05-17T13:06:39Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
