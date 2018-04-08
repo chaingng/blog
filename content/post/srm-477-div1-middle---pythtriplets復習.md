@@ -2,7 +2,8 @@
 title = "SRM 477 DIV1 Middle - PythTriplets　（復習×××）"
 date = 2014-03-09T11:37:00Z
 updated = 2014-08-24T10:55:30Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
