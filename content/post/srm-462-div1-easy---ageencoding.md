@@ -2,7 +2,8 @@
 title = "SRM 462 DIV1 Easy - AgeEncoding"
 date = 2015-05-03T22:05:00Z
 updated = 2015-05-03T22:05:09Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
