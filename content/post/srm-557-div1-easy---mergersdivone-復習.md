@@ -3,7 +3,8 @@ title = "SRM 557 DIV1 Easy - MergersDivOne (復習×)"
 date = 2013-08-18T10:53:00Z
 updated = 2015-04-03T11:15:24Z
 tags = ["シミュレーション"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
