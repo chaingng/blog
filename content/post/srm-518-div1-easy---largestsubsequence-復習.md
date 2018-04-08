@@ -3,7 +3,8 @@ title = "SRM 518 DIV1 Easy - LargestSubsequence （復習○）"
 date = 2013-10-13T10:23:00Z
 updated = 2015-03-26T19:36:06Z
 tags = ["文字列"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
