@@ -3,7 +3,8 @@ title = "SRM 528 DIV1 Easy - Cut （復習○）"
 date = 2013-09-29T18:43:00Z
 updated = 2015-03-26T20:37:12Z
 tags = ["探索箇所限定"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
