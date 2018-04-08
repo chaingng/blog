@@ -2,7 +2,8 @@
 title = "SRM 413 DIV1 Easy - ArithmeticProgression"
 date = 2015-05-09T15:30:00Z
 updated = 2015-05-09T15:30:29Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
