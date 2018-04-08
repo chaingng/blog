@@ -2,7 +2,8 @@
 title = "SRM 402 DIV1 Easy - RandomSort"
 date = 2015-05-09T17:18:00Z
 updated = 2015-05-09T17:18:24Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
