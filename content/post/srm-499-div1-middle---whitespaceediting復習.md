@@ -2,7 +2,8 @@
 title = "SRM 499 DIV1 Middle - WhiteSpaceEditing　（復習×○）"
 date = 2014-03-26T00:21:00Z
 updated = 2014-09-12T09:32:16Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
