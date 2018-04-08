@@ -3,7 +3,8 @@ title = "SRM 572 DIV1 Easy - NewArenaPassword （復習○）"
 date = 2013-08-20T08:09:00Z
 updated = 2015-04-03T11:27:47Z
 tags = ["ループ"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
