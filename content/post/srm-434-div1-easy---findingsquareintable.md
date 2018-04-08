@@ -2,7 +2,8 @@
 title = "SRM 434 DIV1 Easy - FindingSquareInTable"
 date = 2015-05-02T22:52:00Z
 updated = 2015-05-02T22:52:42Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
