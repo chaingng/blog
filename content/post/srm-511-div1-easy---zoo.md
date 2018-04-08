@@ -2,7 +2,8 @@
 title = "SRM 511 DIV1 Easy - Zoo"
 date = 2015-05-10T13:03:00Z
 updated = 2015-05-10T13:03:47Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
