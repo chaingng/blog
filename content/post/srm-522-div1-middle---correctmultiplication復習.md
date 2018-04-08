@@ -2,7 +2,8 @@
 title = "SRM 522 DIV1 Middle - CorrectMultiplication　（復習×××）"
 date = 2014-03-01T14:16:00Z
 updated = 2014-08-16T15:43:35Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
