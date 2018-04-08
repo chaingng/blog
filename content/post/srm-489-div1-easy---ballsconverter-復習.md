@@ -3,7 +3,8 @@ title = "SRM 489 DIV1 Easy - BallsConverter (復習○)"
 date = 2014-02-02T20:45:00Z
 updated = 2015-03-26T19:30:55Z
 tags = ["状態遷移"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
