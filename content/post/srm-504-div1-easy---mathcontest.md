@@ -2,7 +2,8 @@
 title = "SRM 504 DIV1 Easy - MathContest"
 date = 2015-05-09T17:22:00Z
 updated = 2015-05-09T17:22:21Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
