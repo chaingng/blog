@@ -3,7 +3,8 @@ title = "SRM 522 DIV1 Easy - RowAndCoins （復習○）"
 date = 2013-10-13T08:19:00Z
 updated = 2015-03-26T20:07:03Z
 tags = ["２人ゲーム"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
