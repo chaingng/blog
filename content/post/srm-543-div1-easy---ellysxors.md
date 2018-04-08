@@ -3,7 +3,8 @@ title = "SRM 543 DIV1 Easy - EllysXors"
 date = 2013-07-12T08:36:00Z
 updated = 2015-05-17T13:30:37Z
 tags = ["数学"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
