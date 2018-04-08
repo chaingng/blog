@@ -3,7 +3,8 @@ title = "SRM 571 DIV1 Easy - FoxAndMp3 (復習×○)"
 date = 2013-08-20T08:21:00Z
 updated = 2015-03-26T20:03:39Z
 tags = ["考察"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
