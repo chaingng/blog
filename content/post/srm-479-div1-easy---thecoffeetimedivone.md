@@ -2,7 +2,8 @@
 title = "SRM 479 DIV1 Easy - TheCoffeeTimeDivOne"
 date = 2015-05-04T21:06:00Z
 updated = 2015-05-04T21:06:19Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
