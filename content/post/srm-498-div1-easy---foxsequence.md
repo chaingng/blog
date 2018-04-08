@@ -2,7 +2,8 @@
 title = "SRM 498 DIV1 Easy - FoxSequence"
 date = 2015-05-09T16:23:00Z
 updated = 2015-05-09T16:23:36Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
