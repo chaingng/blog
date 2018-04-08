@@ -2,7 +2,8 @@
 title = "SRM 560 DIV1 Easy - TomekPhone"
 date = 2015-05-20T21:58:00Z
 updated = 2015-05-20T21:58:36Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
