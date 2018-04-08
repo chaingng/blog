@@ -2,7 +2,8 @@
 title = "SRM 535 DIV1 Middle - FoxAndBusiness　（復習×××）"
 date = 2014-03-01T11:26:00Z
 updated = 2014-08-17T13:07:42Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
