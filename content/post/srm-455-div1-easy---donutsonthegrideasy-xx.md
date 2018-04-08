@@ -2,7 +2,8 @@
 title = "SRM 455 DIV1 Easy - DonutsOnTheGridEasy xx"
 date = 2015-05-10T15:08:00Z
 updated = 2015-07-28T04:54:21Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
