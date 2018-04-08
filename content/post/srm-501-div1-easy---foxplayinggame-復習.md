@@ -3,7 +3,8 @@ title = "SRM 501 DIV1 Easy - FoxPlayingGame (復習×○)"
 date = 2014-01-26T10:06:00Z
 updated = 2015-03-26T19:54:39Z
 tags = ["DP"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
