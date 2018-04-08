@@ -2,7 +2,8 @@
 title = "SRM 496 DIV1 Easy - ColoredStrokes ○"
 date = 2015-05-09T16:11:00Z
 updated = 2015-08-06T10:00:14Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
