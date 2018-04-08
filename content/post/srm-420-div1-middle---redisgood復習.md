@@ -2,7 +2,8 @@
 title = "SRM 420 DIV1 Middle - RedIsGood　（復習××）"
 date = 2014-03-30T00:19:00Z
 updated = 2014-09-14T10:42:32Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
