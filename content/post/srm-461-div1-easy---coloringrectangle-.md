@@ -2,7 +2,8 @@
 title = "SRM 461 DIV1 Easy - ColoringRectangle ○"
 date = 2015-05-03T22:11:00Z
 updated = 2015-08-08T07:14:28Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
