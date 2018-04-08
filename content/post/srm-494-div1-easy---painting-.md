@@ -2,7 +2,8 @@
 title = "SRM 494 DIV1 Easy - Painting ○"
 date = 2015-05-09T16:06:00Z
 updated = 2015-08-06T09:58:59Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
