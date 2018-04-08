@@ -2,7 +2,8 @@
 title = "SRM 500 DIV1 Easy - MafiaGame x"
 date = 2015-05-10T21:08:00Z
 updated = 2015-08-09T21:00:03Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
