@@ -2,7 +2,8 @@
 title = "SRM 430 DIV1 Middle - TwinTowns （復習x）"
 date = 2014-05-20T21:04:00Z
 updated = 2014-06-18T19:10:09Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
