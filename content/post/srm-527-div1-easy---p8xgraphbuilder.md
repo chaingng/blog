@@ -2,7 +2,8 @@
 title = "SRM 527 DIV1 Easy - P8XGraphBuilder"
 date = 2015-05-27T20:01:00Z
 updated = 2015-05-27T20:01:28Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
