@@ -2,7 +2,8 @@
 title = "SRM 419 DIV1 Easy - Undo ○"
 date = 2015-05-09T15:41:00Z
 updated = 2015-08-09T20:49:38Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
