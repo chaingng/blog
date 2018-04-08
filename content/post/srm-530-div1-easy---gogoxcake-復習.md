@@ -3,7 +3,8 @@ title = "SRM 530 DIV1 Easy - GogoXCake （復習○）"
 date = 2013-09-29T18:16:00Z
 updated = 2015-04-03T11:09:21Z
 tags = ["カバー"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
