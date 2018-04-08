@@ -2,7 +2,8 @@
 title = "SRM 509 DIV1 Middle - PalindromizationDiv1　（復習×）"
 date = 2014-05-19T21:55:00Z
 updated = 2014-06-26T22:08:37Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
