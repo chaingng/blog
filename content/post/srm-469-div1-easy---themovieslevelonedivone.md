@@ -2,7 +2,8 @@
 title = "SRM 469 DIV1 Easy - TheMoviesLevelOneDivOne"
 date = 2015-05-03T21:59:00Z
 updated = 2015-05-03T21:59:52Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
