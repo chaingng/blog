@@ -2,7 +2,8 @@
 title = "SRM 539 DIV1 Easy - Over9000Rocks"
 date = 2015-05-27T16:42:00Z
 updated = 2015-05-27T16:42:21Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
