@@ -2,7 +2,8 @@
 title = "SRM 457 DIV1 Easy - TheTriangleBothDivs"
 date = 2015-05-04T21:48:00Z
 updated = 2015-05-04T21:48:13Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
