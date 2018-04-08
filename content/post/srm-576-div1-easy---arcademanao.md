@@ -2,7 +2,8 @@
 title = "SRM 576 DIV1 Easy - ArcadeManao"
 date = 2015-05-27T16:38:00Z
 updated = 2015-05-27T16:38:44Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
