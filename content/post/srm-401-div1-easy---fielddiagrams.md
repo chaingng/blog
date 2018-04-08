@@ -3,7 +3,8 @@ title = "SRM 401 DIV1 Easy - FIELDDiagrams"
 date = 2015-04-28T21:04:00Z
 updated = 2015-04-28T21:04:54Z
 tags = ["DP"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
