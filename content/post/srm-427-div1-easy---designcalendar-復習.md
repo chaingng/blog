@@ -3,7 +3,8 @@ title = "SRM 427 DIV1 Easy - DesignCalendar （復習○）"
 date = 2014-02-01T20:08:00Z
 updated = 2015-03-26T20:31:12Z
 tags = ["数学"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
