@@ -3,7 +3,8 @@ title = "SRM 574 DIV1 Easy - TheNumberGame （復習x）"
 date = 2013-08-18T16:02:00Z
 updated = 2015-03-26T20:07:03Z
 tags = ["２人ゲーム"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
