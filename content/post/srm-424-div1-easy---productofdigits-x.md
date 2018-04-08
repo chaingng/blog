@@ -2,7 +2,8 @@
 title = "SRM 424 DIV1 Easy - ProductOfDigits x"
 date = 2015-05-09T15:34:00Z
 updated = 2015-08-09T20:52:30Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
