@@ -3,7 +3,8 @@ title = "SRM 436 DIV1 Easy - BestView （復習○）"
 date = 2014-02-01T21:51:00Z
 updated = 2015-04-03T11:34:48Z
 tags = ["数学"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
