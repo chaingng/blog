@@ -2,7 +2,8 @@
 title = "SRM 444 DIV1 Easy - UnfoldingTriangles ○"
 date = 2015-05-05T18:20:00Z
 updated = 2015-08-08T07:03:52Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
