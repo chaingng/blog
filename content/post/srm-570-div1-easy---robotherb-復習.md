@@ -3,7 +3,8 @@ title = "SRM 570 DIV1 Easy - RobotHerb (復習××)"
 date = 2013-08-18T09:35:00Z
 updated = 2015-03-26T19:58:45Z
 tags = ["移動"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
