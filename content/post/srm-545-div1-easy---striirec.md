@@ -2,7 +2,8 @@
 title = "SRM 545 DIV1 Easy - StrIIRec"
 date = 2015-05-17T13:26:00Z
 updated = 2015-05-17T13:26:13Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
