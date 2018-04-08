@@ -3,7 +3,8 @@ title = "SRM 573 DIV1 Easy - TeamContest （復習○）"
 date = 2013-08-18T11:28:00Z
 updated = 2015-04-03T11:02:26Z
 tags = ["ペア"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
