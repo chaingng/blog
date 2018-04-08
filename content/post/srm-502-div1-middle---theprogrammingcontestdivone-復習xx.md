@@ -2,7 +2,8 @@
 title = "SRM 502 DIV1 Middle - TheProgrammingContestDivOne （復習xx）"
 date = 2014-03-29T11:49:00Z
 updated = 2014-09-14T11:13:08Z
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
