@@ -1,6 +1,6 @@
 ---
 title: "High Sierra以降のmacはftpとtelnetが使えない。使うには、inetutilsをインストールする。"
-date: 2018-4-06T10:00:00+09:00
+date: 2018-04-06T10:00:00+09:00
 tags: [ "mac"]
 ---
 
