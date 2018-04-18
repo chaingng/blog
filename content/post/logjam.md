@@ -1,5 +1,6 @@
 ---
 title: "logjam脆弱性と対策"
+description : "Weak Diffie-Hellman and the Logjam Attackが公式ソース。こちらに書かれている、脆弱性と対策は以下の通り。"
 date: 2017-03-26T10:00:00+09:00
 tags: [ "security"]
 ---
