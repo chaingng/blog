@@ -4,7 +4,7 @@ date: 2017-03-26T10:00:00+09:00
 tags: [ "security"]
 ---
 
-[Weak Diffie-Hellman and the Logjam Attack](https://weakdh.org/)に詳細が記載されている。  
+[Weak Diffie-Hellman and the Logjam Attack](https://weakdh.org/)が公式ソース。
 これに従って、詳細を整理しておく。
 
 <br>
