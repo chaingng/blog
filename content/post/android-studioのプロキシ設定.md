@@ -3,7 +3,8 @@ title = "android studioのプロキシ設定"
 date = 2014-10-08T20:44:00Z
 updated = 2014-10-08T20:45:01Z
 tags = ["technology"]
-blogimport = true 
+blogimport = true
+draft = true
 [author]
 	name = "chngng"
 	uri = "https://www.blogger.com/profile/14196381724208675248"
