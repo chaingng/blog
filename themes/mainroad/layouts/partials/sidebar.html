@@ -2,12 +2,7 @@
 	{{ partial "widgets/search.html" . }}
 	{{ partial "widgets/categories.html" . }}
 	{{ partial "widgets/social.html" . }}
-	{{ partial "widgets/recommend.html" . }}
-	
-	<a href="https://px.a8.net/svt/ejp?a8mat=2ZEPNP+3ENBEA+3O4Y+5ZMCH" target="_blank" rel="nofollow">
-	<img border="0" width="600" height="500" alt="" src="https://www29.a8.net/svt/bgt?aid=180405349206&wid=001&eno=01&mid=s00000017125001006000&mc=1"></a>
-	<img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=2ZEPNP+3ENBEA+3O4Y+5ZMCH" alt="">	
-	
+		
 	{{ partial "widgets/tagdetaillist.html" . }}
 
 	{{- if and (not .Site.Params.widgets.search) (not .Site.Params.widgets.recent) (not .Site.Params.widgets.categories) (not .Site.Params.widgets.social) (not .Site.Params.widgets.taglist) }}
