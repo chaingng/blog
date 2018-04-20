@@ -6,7 +6,31 @@ tags: [ "python"]
 
 pipenvを使うことにより、rubyにおけるGemfileのようにpythonでpackage管理を行うことができる。
 
-## いいところ
+## 目次
+- [利点](#利点)
+- [特徴](#特徴)
+- [インストール](#インストール)
+- [初期化](#初期化)
+- [requirements.txtのインポート](#requirementsのインポート)
+- [packageのインストール](#packageのインストール)
+- [Pipfile.lockを使用してインストール](#Pipfilelockを使用してインストール)
+- [dev-packagesにパッケージをインストール](#dev-packagesにパッケージをインストール)
+- [packageのアンインストール](#packageのアンインストール)
+- [全てのpackageのアンインストール](#全てのpackageのアンインストール)
+- [packageのアップデート](#packageのアップデート)
+- [Pipfile.lockを作成](#Pipfilelockを作成)
+- [packageの依存グラフを確認](#packageの依存グラフを確認)
+- [仮想環境でコマンドを実行](#仮想環境でコマンドを実行)
+- [仮想環境が有効化されたシェルを起動](#仮想環境が有効化されたシェルを起動)
+- [セキュリティの脆弱性をチェック](#セキュリティの脆弱性をチェック)
+- [仮想環境の情報を出力](#仮想環境の情報を出力)
+- [python_versionを指定](#python_versionを指定)
+- [pipenvとpipをアップデート](#pipenvとpipをアップデート)
+- [.envのlocationを指定](.envのlocationを指定)
+- [.envを読み込まない](.envを読み込まない)
+- [jumbotron](#jumbotron)
+
+## 利点
 * pip と virtualenv が連係して動作
 * requirements.txt ファイルの管理は 問題になり得る ので、代わりにPipenvは来たるべき Pipfile および Pipfile.lock を使う 
 * パッケージの依存性をグラフで洞察できる(pipenv graph)
@@ -37,7 +61,7 @@ pipenv —three
 pipenv --two  
 ```
 
-## requirements.txtのインポート
+## requirementsのインポート
 ```
 pipenv install --requirements requirements.txt
 ```
@@ -48,12 +72,12 @@ pipenv install [package]
 ```
 
 
-## Pipfile.lockを使用してインストール
+## Pipfilelockを使用してインストール
 ```
 pipenv install --ignore-pipfile [package]
 ```
 
-## [dev-packages]にパッケージをインストール
+## dev-packagesにパッケージをインストール
 ```
 pipenv install [package] --dev
 ```
@@ -78,7 +102,7 @@ package指定がなければ、で全てのパッケージをアップデート
 pipenv update [package]
 ```
 
-## Pipfile.lockを作成
+## Pipfilelockを作成
 ```
 $ pipenv lock
 Locking [dev-packages] dependencies…
