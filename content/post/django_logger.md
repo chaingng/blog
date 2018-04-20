@@ -6,6 +6,15 @@ tags: [ "django"]
 
 djangoでloggerを使うには、loggerの要素（formatters、loggers、filters、handlers）とログレベル、settingsにおける設定について理解する必要がある。
 
+## 目次
+- [ログレベル](#ログレベル)
+- [settingsでの設定](#settingsでの設定)
+- [formatters](#formatters)
+- [filters](#filters)
+- [handlers](#handlers)
+- [loggers](#loggers)
+- [ロギングを使う](#ロギングを使う)
+- [例](#例)
 
 ## ログレベル
 
