@@ -4,6 +4,8 @@ date: 2018-02-23T10:00:00+09:00
 tags: [ "algorithm"]
 ---
 
+## scratch
+
 ```
 # queueのベースクラスを作成 
 # isEmpty, lenメソッド, 全nodeの一覧を持つ
@@ -83,4 +85,19 @@ q.enqueue(3)
 q.dequeue()
 print(str(q))
 
+```
+
+## pythonic
+
+```
+>>> from collections import deque
+>>> queue = deque(["Eric", "John", "Michael"])
+>>> queue.append("Terry")           # Terry arrives
+>>> queue.append("Graham")          # Graham arrives
+>>> queue.popleft()                 # The first to arrive now leaves
+'Eric'
+>>> queue.popleft()                 # The second to arrive now leaves
+'John'
+>>> queue                           # Remaining queue in order of arrival
+deque(['Michael', 'Terry', 'Graham'])
 ```
