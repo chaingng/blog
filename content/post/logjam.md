@@ -8,7 +8,12 @@ tags: [ "security"]
 [Weak Diffie-Hellman and the Logjam Attack](https://weakdh.org/)が公式ソース。
 これに従って、詳細を整理しておく。
 
-<br>
+## 目次
+- [logjamとは](#logjamとは)
+- [サーバに脆弱性があるかのテスト](#サーバに脆弱性があるかのテスト)
+- [クライアントブラウザの脆弱性テスト](#クライアントブラウザの脆弱性テスト)
+- [対策](#対策)
+- [TLSにおけるDiffie-Hellman設定のためのガイド](#TLSにおけるDiffie-Hellman設定のためのガイド)
 
 ## logjamとは
 
@@ -80,7 +85,7 @@ Google Chrome (including Android Browser), Mozilla Firefox, Microsoft Internet E
 
 <br>
 
-##  Guide to Deploying Diffie-Hellman for TLS
+## TLSにおけるDiffie-Hellman設定のためのガイド
 
 対策方法まとめ
 
