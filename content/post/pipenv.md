@@ -55,7 +55,7 @@ pip install pipenv
 python2系 or ３系を指定する。Pipfileが作成される
 ```
 # python3系
-pipenv —three 
+pipenv —-three 
 
 # python2系
 pipenv --two  
