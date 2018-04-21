@@ -1,6 +1,7 @@
 ---
 title: "crowi用のvagrantを公開しました"
 date: 2017-02-12T10:00:00+09:00
+tags: ["library"]
 ---
 
 情報集約用にwikiをいろいろ試していて、crowiを試してみることにした。  
