@@ -1,6 +1,7 @@
 ---
 title: "[要約]CodeComplete 15章 条件文の使用"
 date: 2017-02-26T10:00:00+09:00
+tags: ["technology"]
 ---
 
 ## if文
