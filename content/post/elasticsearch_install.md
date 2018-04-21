@@ -1,6 +1,7 @@
 ---
 title: "ElasticSearchの導入"
 date: 2017-02-19T00:00:00+09:00
+tags: [ "library"]
 ---
 
 ## 目次
