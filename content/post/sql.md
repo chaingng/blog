@@ -263,6 +263,7 @@ ROLLBACK;
 - ただし実際のデータは保存していない
 - ビューが保存しているのはSELECT文
 - 実際のデータを保存しなくてよいので容量が節約できる
+
 ```
 CREATE VIEW ShohinSum (shohin_bunrui, cnt_shohin)
 AS
@@ -304,6 +305,7 @@ SELECT shohin_bunrui
 - 必ず１行１列だけの戻り値を返す
 - つまり、この結果を＝や＜＞などに使うこと
 - 定数や列名を書けるところすべてに使える
+
 ```
 SELECT shihin_id
     FROM Shohin
@@ -356,6 +358,7 @@ WHERE shiire_tanka IN (320, 500, 5000);
 - レコードの存在有無しか見ないため、SELECTでどんな列が返されるか気にしない
 - `SELECT　*`と書くのは慣習
 -TRUEかFALSEだけ返す
+
 ```
 SELECT shohin_mei
     FROM Shohin AS S
@@ -427,6 +430,7 @@ SELECT shohin_id, shohin_mei
 ## INNER　JOIN
 - JOINは列の結合
 - INNER JOINは両方に存在するレコードのみ出力される
+
 ```
 SELECT TS.tenpo_id, TS.tenpo_mei, TS.shohin_id, S.shohin_mei, S.hanbai_tanka
     FROM TenpoShohin AS TS INNER JOIN Shohin AS S
@@ -438,6 +442,7 @@ SELECT TS.tenpo_id, TS.tenpo_mei, TS.shohin_id, S.shohin_mei, S.hanbai_tanka
 ## OUTER JOIN
 - 片方のみに存在するレコードも出力される
 - OUTERは元のテーブルにない情報を結果に持ってくる、という意味
+
 ```
 SELECT TS.tenpo_id, TS.tenpo_mei, TS.shohin_id, S.shohin_mei, S.hanbai_tanka
     FROM TenpoShohin AS TS RIGHT OUTER JOIN Shohin AS S
@@ -448,6 +453,7 @@ SELECT TS.tenpo_id, TS.tenpo_mei, TS.shohin_id, S.shohin_mei, S.hanbai_tanka
 マスターにする方をLEFTもしくはRIGHTで指定できる
 
 ### 3つ以上のテーブルを内部結合する
+
 ```
 SELECT TS.tenpo_id, TS.tenpo_mei, TS.shohin_id, S.shohin_mei, S.hanbai_tanka, ZS.zaiko_suryo
     FROM TenpoShohin AS TS INNER JOIN Shohin AS S
