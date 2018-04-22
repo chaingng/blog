@@ -1,5 +1,5 @@
 ---
-title: "sorting overview"
+title: "ソートの基礎"
 date: 2018-01-15T10:00:00+09:00
 tags: [ "algorithm"]
 ---
@@ -8,11 +8,20 @@ tags: [ "algorithm"]
 - ソートは検索を早くするプリプロセスとして使われる
 - 似ているアイテムを探すのにも使われる
 - ヒープソート
-  - in-placeだが安定でない
+  - in-placeだが安定でない
+  - spaceO(1)
 - マージソート
   - 安定だがin-placeでない
+  - space O(n)
+  - avarage: O(n logn)
+  - worst :O(n logn)
+  - best: O(n logn)
 - クイックソート
-  - 最悪ケースでO(n^2)
+  - 最悪ケースでO(n^2)、安定でない
+  - space O(n)
+  - avarage: O(n logn)
+  - worst :O(n^2)
+  - best: O(n logn)
 - max/min-heap
   - O(logn)で挿入・削除可能
   - O(1)でmin/maxの要素を参照できる
