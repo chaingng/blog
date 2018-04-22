@@ -17,7 +17,7 @@ tags: [ "algorithm"]
   - worst :O(n logn)
   - best: O(n logn)
 - クイックソート
-  - 最悪ケースでO(n^2)、安定でない
+  - 最悪ケースでO(n^2)、安定でない
   - space O(n)
   - avarage: O(n logn)
   - worst :O(n^2)
