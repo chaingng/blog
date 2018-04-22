@@ -1,5 +1,5 @@
 ---
-title: "Hash Tables"
+title: "ハッシュテーブルの概要"
 date: 2018-01-08T10:00:00+09:00
 tags: [ "algorithm"]
 ---
