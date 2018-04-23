@@ -1,5 +1,5 @@
 ---
-title: "Primitive Typesの基礎"
+title: "ビット操作の基礎"
 date: 2018-02-05T10:00:00+09:00
 tags: [ "algorithm"]
 ---
