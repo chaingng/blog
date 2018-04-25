@@ -47,7 +47,12 @@ Hello World!
   - クラスはオブジェクトの設計図
 - javaのプログラムはクラスの集まり
 - クラスが膨大になったら.jarファイルにまとめることができる
-  
+- privateにはできないが、publicにしないことはできる
+    - その場合、同じパッケージに属するクラスしか継承できないようになる
+- final指定することで継承させないことができる
+    - 勝手にメソッドの機能を書き換えさせたくない場合
+    - 例えばStringクラスはfinalになっている
+  
 ## クラスの作成と使用
 Dog.java
 ```
@@ -208,15 +213,140 @@ public class ArrayListTest {
 ## 継承
 - クラスのメソッドやインスタンス変数を引き継ぐ
 - 元のクラスをスーパークラス、引き継いだクラスをサブクラスと呼ぶ
-- 重複を防ぐことができるメリットがある
+- メリット
+    - コードの重複を減らす
+    - 複数のクラスに共通のプロトコルを適用する（ポリモーフィズムも利用できる）
 - Parsonクラスを引き継ぐJapaneseクラス
 - Japanese is a Parson, Parson has a Japanseという関係になる
+- privateを指定されたメンバは継承できない
+- 継承する際の判断ポイント
+    - 新たに作るクラスは、元のクラスよりも具体的なものでなくてはならない
+    - 機能のかなりの部分が共通している同種のクラスを複数作る必要がある時に利用する
+    - 再利用の目的だけで継承しない（例えば、同種でなければ継承するべきではない）
+    - is a関係にする
 
 ```
 public class FamilyDocter extends Doctor{
     void giveAdvice(){
     }
 }
+```
+
+## ポリモーフィズム
+- 非常にシンプルかつフレキシブルで、効率的なコードが書けるようになる
+- プログラムにサブクラスが追加されても、コードを修正する必要はない
+
+```
+Animal [] animals = new Animal [5];
+animals[0] = new Dog();
+animals[1] = new Cat();
+animals[2] = new Wolf();
+animals[3] = new Hippo();
+animals[4] = new Lion();
+
+for(int i=0; i<animals.length; i++){
+    animals[i].eat();
+    animals[i].roam();
+}
+```
+
+##　オーバーライド
+- サブクラスでスーパークラスのメソッドを書き換える
+- final指定されているメソッドはオーバーライドできない
+- オーバーライド時にアクセスレベルを下げてはいけない
+- 引数の型は変えてはいけない
+
+## オーバーロード
+- 名前が同じで指定できる引数の異なるメソッドを作ることができる
+- 戻り値の型を変えることができる
+- 戻り値の型だけを変えることはできない
+-　アクセスレベルは上げることも下げることもできる
+
+```
+public class OverLoads{
+    public int addNums(int a, int b){
+    }
+    
+    public double addNums(double a, double b){
+    }
+}
+```
+
+##　抽象クラス
+- インスタンス化させたくないクラス
+- 例
+    - それ自体は使わないスーパークラスなど
+
+```
+abstract class Canine{
+    public void roam(){}
+}
+```
+
+## 抽象メソッド
+- サブクラスで必ずオーバーライドしなくてはいけない
+- より具体性の高い下位のクラスに持たせるべきメソッドに適用する
+- 抽象メソッドには本体がない
+- １つでも抽象メソッドを含むクラスは、抽象クラスにしなければいけない
+
+## Objectクラス
+- JavaのクラスはすべてObjectクラスを継承したもの
+- 明示的に何かのクラスを継承していないクラスは、自動的にObjectを直接継承しているとみなされる
+- 持つメソッド
+    - `equals`, `getClass()`, `hashCode()`, `toString()`
+- Objectクラスに代入すると、元のクラスのメソッドは使えない
+
+
+```
+public abstract void eat();
+```
+
+## Objectクラスの型を元に戻す
+
+```
+Object o = al.get(index);
+if(d instanceof Dog){
+    Dog d = (Dog)o;
+    d.roam();
+}
+```
+
+## 多重継承
+- 2つ以上のクラスを継承すること
+- 例えばダイアモンド継承は、大きな問題を引き起こす
+    - DigitalRecoderスーパークラスは、burn()メソッドをもつ
+    - サブクラスCDBurner, DVDBurnerはburn()をオーバーライドする
+    - CDBurner, DVDBurnerを継承したサブクラスComboDriveは、どちらのburnが実行されるかわからない
+- Javaでは多重継承はできない
+- 代わりにインタフェースを使う
+
+## インタフェース
+- 完全な抽象クラスと呼ぶべきようなもの
+- インタフェース中のメソッドはすべて抽象メソッド
+- インタフェースはあらゆるクラスでインプリメントできる
+- 1つのクラスで複数のインタフェースをインプリメントすることもできる
+
+
+Pet.java
+```
+public interface Pet{
+    public abstract void beFriendly();
+    public abstract void play();
+}
+```
+
+Dog.java
+```
+public class Dog extends Canine implements Pet{
+    public void beFriendly(){}
+    public void play(){}
+}
+```
+
+## スーパークラスのメソッドを利用
+
+```
+super.runReport();
 ```
 
 hoge
