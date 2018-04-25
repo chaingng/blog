@@ -75,6 +75,15 @@ class DogTestDrive{
 ## 変数
 - 大きく分けて、プリミティブ型（整数など）と参照型）（オブジェクトの参照）の２種類がある
 - 変数に代入されるのは、オブジェクトそのものではなく、オブジェクトへの参照
+- インスタンス変数はクラスの中で宣言する
+- ローカル変数はメソッドの中で宣言する
+- インスタンス変数は初期化をしない場合、以下のデフォルト値が代入される　
+    - int 0
+    - float 0.0
+    - boolean false
+    - 参照型 null
+- ローカル変数は利用する前に初期化が必要
+
 
 ## オブジェクトリファレンス
 - 同じクラスの変数は再代入可能
@@ -130,6 +139,82 @@ class GoodDogTestDrive{
         GoodDog two = new GoodDog();
         two.setSize(10);
         two.bark();
+    }
+}
+```
+
+## 型変換
+
+```
+Integer.parseInt("3");
+```
+
+## キャスト
+```
+log y = 42;
+int x = (int)y;
+```
+
+## ArrayList
+- 通常の配列と異なり、宣言時にサイズを決めなくても良い
+
+```
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+ 
+public class ArrayListTest {
+ 
+    public static void main(String[] args) {
+        List<Integer> list = new ArrayList<>();
+ 
+        list.add(1);
+        list.add(5);
+        list.add(2);
+        list.add(8);
+        
+        //size
+        int theSize = list.size();
+        System.out.println(theSize);
+        
+        //contain
+        boolean isIn = list.contains(8);
+        System.out.println(isIn);
+
+        // index
+        int idx = list.indexOf(1);
+        System.out.println(idx);
+
+        // check empty
+        boolean empty = list.isEmpty();
+        System.out.println(empty);
+        
+        list.remove(2);
+
+        for(Iterator it = list.iterator(); it.hasNext();) {
+            System.out.println(it.next());
+        }
+    }
+}
+```
+
+## Java APIライブラリの使用
+- java.langは例外的に指定しなくてもよい
+    - String、Mathなど
+- 標準拡張パッケージはjavax(今は標準パッケージと変わらないほど一般的になったものもあるが、慣例として分かれている)
+- インポートはCのインクルードとは異なり、フルネームを逐一タイプする手間を省くもの
+
+
+## 継承
+- クラスのメソッドやインスタンス変数を引き継ぐ
+- 元のクラスをスーパークラス、引き継いだクラスをサブクラスと呼ぶ
+- 重複を防ぐことができるメリットがある
+- Parsonクラスを引き継ぐJapaneseクラス
+- Japanese is a Parson, Parson has a Japanseという関係になる
+
+```
+public class FamilyDocter extends Doctor{
+    void giveAdvice(){
     }
 }
 ```
