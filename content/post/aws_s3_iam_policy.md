@@ -4,7 +4,7 @@ date: 2018-04-02T10:00:00+09:00
 tags: [ "aws"]
 ---
 
-[公式](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_examples_s3_rw-bucket.html)を参考に、以下のように設定すればよい。
+[公式](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_examples_s3_rw-bucket.html)を参考に、プログラムアクセスか、マネジメントコンソールでのアクセスかに応じて、以下のように設定する。
 
 
 ## プログラムアクセスにより、特定のバケットに対するRead/Write権限を付与するiamポリシー
