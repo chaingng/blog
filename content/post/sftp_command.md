@@ -164,7 +164,7 @@ Local working directory: /Users/hondatakatomo
     30830568      5843356     24886964     24987212          18%
 ```
 
-###help
+### help
 ヘルプを表示
 ```
 > help
