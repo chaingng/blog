@@ -77,7 +77,7 @@ example.log                                                                     
 
 ディレクトリ内にファイルがあると削除ができない
 
-# quit / bye / exit
+### quit / bye / exit
 接続を閉じる
 ```
 > quit
