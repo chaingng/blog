@@ -4,6 +4,14 @@ date: 2017-01-01T10:00:00+09:00
 tags: [ "linux"]
 ---
 
+### 手順
+- [ssh-keygenにて公開鍵と秘密鍵を作成](#ssh-keygenにて公開鍵と秘密鍵を作成)
+- [秘密鍵のパーミッションを変更](#秘密鍵のパーミッションを変更)
+- [サーバにて対象ユーザのauthorized_keysに作成した公開鍵の内容を追加](#サーバにて対象ユーザのauthorized_keysに作成した公開鍵の内容を追加)
+- [sshd_condigにて公開鍵認証をON](#sshd_condigにて公開鍵認証を有効化)
+- [sshdサービスを再起動し設定を有効化](#sshdサービスを再起動し設定を反映)
+- [秘密鍵によるsshアクセスできるか確認](#秘密鍵によるsshアクセスできるか確認)
+
 ### ssh-keygenにて公開鍵と秘密鍵を作成
 
 ```
@@ -30,7 +38,12 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-### サーバにログインし、 `~/.ssh/authorized_keys` に作成した公開鍵の内容を追加
+### 秘密鍵のパーミッションを変更
+```
+chmod 400 /Users/hondatakatomo/.ssh/hogefuga
+```
+
+### サーバにて対象ユーザのauthorized_keysに作成した公開鍵の内容を追加
 
 作成した公開鍵の内容をコピーし、
 ```
@@ -38,16 +51,20 @@ $ cat ~/.ssh/hogefuga.pub
 ssh-rsa xxxxx hondatakatomo@hondatakashisatoshinoMacBook-Pro.local
 ```
 
-`~/.ssh/authorized_keys`に追加する
+対象ユーザの`/home/[user]/.ssh/authorized_keys`に追加(`[user]`はユーザ名)
+
 ```
-$ cat ~/.ssh/authorized_keys
+$ vi ~/.ssh/authorized_keys
 ....
 ....
 ssh-rsa xxxxx hondatakatomo@hondatakashisatoshinoMacBook-Pro.local
 ```
 
-### /etc/ssh/sshd_config にて公開鍵認証をonにする
-PubkeyAuthenticationをyesにすればよい
+
+### sshd_condigにて公開鍵認証を有効化
+
+`/etc/ssh/sshd_config`にて、PubkeyAuthenticationをyesにする
+
 ```
 $ cat /etc/ssh/sshd_config 
 ...
@@ -55,7 +72,14 @@ PubkeyAuthentication yes
 ...
 ```
 
-### これで秘密鍵によるsshアクセスが可能になる
+### sshdサービスを再起動し設定を反映
+```
+service sshd restart
+```
+
+### 秘密鍵によるsshアクセスできるか確認
+
+これで秘密鍵によるsshアクセスが可能になる
 ```
 ssh -i ~/.ssh/hogefuga user@hostname
 ```
