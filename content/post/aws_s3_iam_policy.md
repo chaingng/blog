@@ -6,7 +6,8 @@ tags: [ "aws"]
 
 [公式](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_examples_s3_rw-bucket.html)を参考に、以下のように設定すればよい。
 
-## 特定のバケットに対するRead/Writeを権限を付与する
+
+## プログラムアクセスにより、特定のバケットに対するRead/Write権限を付与するiamポリシー
 
 ```
 {
@@ -14,14 +15,15 @@ tags: [ "aws"]
    "Statement": [
      {
        "Effect": "Allow",
-       "Action": ["s3:ListBucket"],
+       "Action": ["s3:ListBucket", "s3:GetBucketLocation"],
        "Resource": ["arn:aws:s3:::<BUCKET-NAME>"]
      },
      {
        "Effect": "Allow",
        "Action": [
          "s3:PutObject",
-         "s3:GetObject"
+         "s3:GetObject",
+         "s3:DeleteObject"
        ],
        "Resource": ["arn:aws:s3:::<BUCKET-NAME>/*"]
      }
@@ -29,9 +31,13 @@ tags: [ "aws"]
  }
 ```
 
-## プログラムによるアクセスに対して、特定のバケットに対するRead/Write権限を付与する
-boto3では`s3:GetBucketLocation`,　`s3:ListAllMyBuckets`も必要なので、
+
+
+## マネジメントコンソールにて、特定のバケットに対するRead/Writeを権限を付与するiamポリシー
+
+マネジメントコンソールで閲覧する際は`s3:GetBucketLocation`,　`s3:ListAllMyBuckets`も必要なので、
 プログラムによるアクセスを許可する場合には以下のように設定する
+
 
 ```
 {
@@ -54,7 +60,8 @@ boto3では`s3:GetBucketLocation`,　`s3:ListAllMyBuckets`も必要なので、
        "Effect": "Allow",
        "Action": [
          "s3:PutObject",
-         "s3:GetObject"
+         "s3:GetObject",
+         "s3:DeleteObject"
        ],
        "Resource": ["arn:aws:s3:::<BUCKET-NAME>/*"]
      }
@@ -62,3 +69,6 @@ boto3では`s3:GetBucketLocation`,　`s3:ListAllMyBuckets`も必要なので、
  }
 
 ```
+
+
+
