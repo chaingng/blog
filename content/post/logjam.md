@@ -5,8 +5,9 @@ date: 2017-03-26T10:00:00+09:00
 tags: [ "security"]
 ---
 
-[Weak Diffie-Hellman and the Logjam Attack](https://weakdh.org/)が公式ソース。
-これに従って、詳細を整理しておく。
+logjamとは、DH鍵交換に存在する脆弱性を利用した攻撃。  
+公式ソースである[Weak Diffie-Hellman and the Logjam Attack](https://weakdh.org/)に書かれている、脆弱性の詳細と対策についてまとめる。
+
 
 ## 目次
 - [logjamとは](#logjamとは)
