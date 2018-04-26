@@ -35,7 +35,7 @@ tags: [ "aws"]
 
 ## マネジメントコンソールにて、特定のバケットに対するRead/Writeを権限を付与するiamポリシー
 
-マネジメントコンソールで閲覧する際は`s3:GetBucketLocation`,　`s3:ListAllMyBuckets`も必要なので、
+マネジメントコンソールで閲覧する際は　`s3:ListAllMyBuckets`も必要なので、
 プログラムによるアクセスを許可する場合には以下のように設定する
 
 
