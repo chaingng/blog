@@ -69,11 +69,12 @@ example.log                                                                     
 
 ### rmdir
 
-```
 ディレクトリを削除
+
 ```
 > rmdir hoge
 ```
+
 ディレクトリ内にファイルがあると削除ができない
 
 # quit / bye / exit
