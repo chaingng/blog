@@ -2,7 +2,7 @@
 	{{ partial "widgets/search.html" . }}
 	{{ partial "widgets/categories.html" . }}
 	{{ partial "widgets/social.html" . }}
-		
+	{{ partial "widgets/popular.html" . }}	
 	{{ partial "widgets/tagdetaillist.html" . }}
 
 	{{- if and (not .Site.Params.widgets.search) (not .Site.Params.widgets.recent) (not .Site.Params.widgets.categories) (not .Site.Params.widgets.social) (not .Site.Params.widgets.taglist) }}
