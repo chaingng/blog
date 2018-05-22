@@ -167,9 +167,49 @@ blueprintを使ったアプリケーションの構造化にはプラクティ�
 
 テンプレートやstaticfileを共有しておらず、blueprintにまとめたい部分の独立性が高い場合はこちらの方法をとる。
 
+divisionalな構造にする場合は、以下のような構成になる。
+
+```
+yourapp/
+    __init__.py
+    admin/
+        __init__.py
+        views.py
+        static/
+        templates/
+    home/
+        __init__.py
+        views.py
+        static/
+        templates/
+    control_panel/
+        __init__.py
+        views.py
+        static/
+        templates/
+    models.py
+```
 
 ### functionalな構造化
 
 ビューのみをblueprintに登録する方法。
 
 テンプレートに共通のレイアウトファイルがあったりstaticfileに共有するものが多い場合は、テンプレートとstaticfileは変わらず共通のままにして、ビューファイルのみblueprintに登録する。
+
+functionalな構造にする場合は、以下のような構成になる。
+
+```
+yourapp/
+    __init__.py
+    static/
+    templates/
+        home/
+        control_panel/
+        admin/
+    views/
+        __init__.py
+        home.py
+        control_panel.py
+        admin.py
+    models.py
+```
