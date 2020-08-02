@@ -6,6 +6,8 @@ tags: [ "python"]
 
 requirements.txtを使うのには問題があるよ、という話。
 
+
+
 ### 典型的なrequirements.txtの使い方
 
 #### １．A list of top-level dependencies a project has, often without versions specified.  
