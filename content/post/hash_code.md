@@ -1,7 +1,7 @@
 ---
-title: "ハッシュテーブルの実装"
+title: "Pythonでのハッシュテーブルの実装"
 date: 2018-03-09T10:00:00+09:00
-tags: [ "algorithm"]
+tags: [ ""]
 ---
 
 
