@@ -1,36 +1,36 @@
 version: 2
 jobs:
-  build:
-    environment:
-      TZ: "Asia/Tokyo"
-    working_directory: ~/work
-    docker:
-      - image: circleci/golang:1.11
-    steps:
-    - add_ssh_keys:
-        fingerprints:
-            - "45:30:17:b6:2c:53:95:7d:a9:c1:6f:38:ec:1b:74:2c"
-    - run:
-        name: install hugo
-        command: |
-            mkdir ~/src; cd $_
-            git clone https://github.com/gohugoio/hugo.git
-            cd hugo
-            go install
-    - checkout
-    - run:
-        name: build
-        command: |
-            rm -rf public
-            git clone git@github.com:chaingng/chaingng.github.io.git public
-            hugo -t mainroad
-    - run:
-        name: push
-        command: |
-            cd public
-            git config --global user.name "CircleCI"
-            git config --global user.email "circleci@example.com"
-            git add --all
-            msg="rebuilding site `date`"
-            git commit -m "$msg"
-            git push origin master
+build:
+  environment:
+    TZ: "Asia/Tokyo"
+  working_directory: ~/work
+  docker:
+    - image: circleci/golang:1.11
+  steps:
+  - add_ssh_keys:
+      fingerprints:
+          - "45:30:17:b6:2c:53:95:7d:a9:c1:6f:38:ec:1b:74:2c"
+  - run:
+      name: install hugo
+      command: |
+          mkdir ~/src; cd $_
+          git clone https://github.com/spf13/hugo.git
+          cd hugo
+          go install
+  - checkout
+  - run:
+      name: build
+      command: |
+          rm -rf public
+          git clone git@github.com:chaingng/chaingng.github.io.git public
+          hugo -t mainroad
+  - run:
+      name: push
+      command: |
+          cd public
+          git config --global user.name "CircleCI"
+          git config --global user.email "circleci@example.com"
+          git add --all
+          msg="rebuilding site `date`"
+          git commit -m "$msg"
+          git push origin master
