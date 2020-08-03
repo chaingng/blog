@@ -8,10 +8,10 @@ python-dotenvを使うことで、`.env`ファイルを使って環境変数を�
 
 これだけの手順でよい。
 
-1. [`python-dotenv`をインストール](インストール)
-1. [`.env`ファイルを作成](.envファイルを作成)
-1. [`settings.py`を作成](settings.pyを作成)
-1. [`settings`をインポートして実行](settingsをインポートして実行)
+1. [`python-dotenv`をインストール](#インストール)
+1. [`.env`ファイルを作成](#.envファイルを作成)
+1. [`settings.py`を作成](#settings.pyを作成)
+1. [`settings`をインポートして実行](#settingsをインポートして実行)
 
 最小限のコードは以下のとおり。
 
