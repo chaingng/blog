@@ -1,7 +1,7 @@
 ---
-title: "クイックソートの実装"
+title: "Pythonでのクイックソートの実装"
 date: 2018-02-16T10:00:00+09:00
-tags: [ "algorithm"]
+tags: [ "python"]
 ---
 
 ```
