@@ -1,5 +1,5 @@
 ---
-title: "Blueprintでflaskアプリケーションをわかりやすく構造化する"
+title: "Blueprintでflaskアプリケーションをわかりやすく構造化"
 date: 2018-01-08T10:00:00+09:00
 tags: [ "flask"]
 ---
