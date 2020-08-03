@@ -5,15 +5,11 @@ jobs:
       TZ: "Asia/Tokyo"
     working_directory: ~/work
     docker:
-      - image: circleci/golang:1.11
+      - image: cibuilds/hugo:0.53
     steps:
     - add_ssh_keys:
         fingerprints:
             - "45:30:17:b6:2c:53:95:7d:a9:c1:6f:38:ec:1b:74:2c"
-    - run:
-        name: install hugo
-        command: |
-            go get -v github.com/spf13/hugo
     - checkout
     - run:
         name: build
