@@ -1,7 +1,7 @@
 ---
-title: "トライ木の実装"
+title: "Pythonでのトライ木の実装"
 date: 2018-03-23T10:00:00+09:00
-tags: [ "algorithm"]
+tags: [ "python"]
 ---
 
 
