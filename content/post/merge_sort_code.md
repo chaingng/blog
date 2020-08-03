@@ -1,7 +1,7 @@
 ---
-title: "マージソートの実装"
+title: "Pythonでのマージソートの実装"
 date: 2018-02-09T10:00:00+09:00
-tags: [ "algorithm"]
+tags: [ "python"]
 ---
 
 ```
