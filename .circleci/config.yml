@@ -1,11 +1,11 @@
 version: 2
 jobs:
-build:
-  environment:
-    TZ: "Asia/Tokyo"
-  docker:
-    - image: circleci/golang:1.11
+  build:
+    environment:
+      TZ: "Asia/Tokyo"
     working_directory: ~/work
+    docker:
+      - image: circleci/golang:1.11
     steps:
     - add_ssh_keys:
         fingerprints:
