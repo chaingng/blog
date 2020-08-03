@@ -8,27 +8,27 @@ python-dotenvを使うことで、`.env`ファイルを使って環境変数を�
 
 これだけの手順でよい。
 
-1. `python-dotenv`をインストール
-1. `.env`ファイルを作成
-1. `settings.py`を作成
-1. `settings`をインポートして実行
+1. [`python-dotenv`をインストール](インストール)
+1. [`.env`ファイルを作成](.envファイルを作成)
+1. [`settings.py`を作成](settings.pyを作成)
+1. [`settings`をインポートして実行](settingsをインポートして実行)
 
 最小限のコードは以下のとおり。
 
-## 1) インストール
+## インストール
 
 ```
 pip install python-dotenv
 ```
 
-## 2) .envファイルを作成
+## .envファイルを作成
 
 .env
 ```
 API_KEY=ITSMYAPIKEY
 ```
 
-## 3) settings.pyを作成
+## settings.pyを作成
 
 settings.py
 ```
@@ -39,15 +39,15 @@ from dotenv import load_dotenv
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
-AP= os.environ.get("API_KEY")
+API_KEY= os.environ.get("API_KEY")
 ```
 
-## 4) settingsをインポートして実行
+## settingsをインポートして実行
 
 sample.py
 ```
 import settings
 
-API_KEY = settings.AP
+API_KEY = settings.API_KEY
 print(API_KEY)
 ```
