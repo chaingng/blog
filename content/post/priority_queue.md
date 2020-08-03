@@ -1,7 +1,7 @@
 ---
-title: "優先度付きキューの実装"
+title: "Pythonでの優先度付きキューの実装"
 date: 2018-03-16T10:00:00+09:00
-tags: [ "algorithm"]
+tags: [ "python"]
 ---
 
 ```
