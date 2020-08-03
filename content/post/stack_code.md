@@ -1,7 +1,7 @@
 ---
-title: "スタックの実装"
+title: "Pythonでのスタックの実装"
 date: 2018-02-23T10:00:00+09:00
-tags: [ "algorithm"]
+tags: [ "python"]
 ---
 
 ## scratch
