@@ -13,10 +13,7 @@ jobs:
     - run:
         name: install hugo
         command: |
-            mkdir ~/src; cd $_
-            git clone https://github.com/spf13/hugo.git
-            cd hugo
-            go install
+            go get -v github.com/spf13/hugo
     - checkout
     - run:
         name: build
