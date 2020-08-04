@@ -22,21 +22,22 @@ Blueprintを使うことで、関連するビューやコードを一つにま�
 - [Blueprintにおける２つのベストプラクティス](#Blueprintにおける２つのベストプラクティス)
 
 ## まとめ
-* ブループリントはアプリケーションを構造化するのに役に立つ
-* ブループリントを使うと、ビュー、テンプレート、staticfilesをまとめてアプリケーションに適用できる
+* ブループリントによってアプリケーションの構造化が可能
+* ブループリントを使うと、ビュー・テンプレート・staticfileを１つにまとめ、アプリケーションに適用することが可能
 * ベストプラクティスとして、divisionalな構造化またはfunctionalな構造化がある
   * divisionalな構造では、各ブループリントはビュー、テンプレート、staticfileをまとめてアプリケーションの１つのセクションにする
   * functionalな構造では、各ブループリントは単なるビューの集まりにする。テンプレートとstaticfileは共通のままにしておく
-* url_value_preprocessor()を使うことで、viewに渡す前の前処理を追加できる
-* url prefixを適用できる
-* サブドメインを適用できる
+* 追加の設定
+  * url_value_preprocessor()を使うことで、viewに渡す前の前処理を追加できる
+  * url prefixを適用することができる
+  * サブドメインを適用することができる
 
 
 ## 基本的な使い方
 
 Blueprintに追加したいビューにて、Blueprintを作成する。
 
-ここでは、profileという名前でBlueprintを作成する
+ここでは、`profile`という名前でBlueprintを作成
 
 ```
 # facebook/views/profile.py
@@ -61,7 +62,7 @@ def about(user_url_slug):
     return render_template('profile/about.html')
 ```
 
-flaskアプリケション側で、profileという名前で定義したBlueprintを登録する。
+flaskアプリケーション側で`profile`という名前でBlueprintに登録
 
 ```
 # facebook/__init__.py
@@ -77,7 +78,7 @@ app.register_blueprint(profile)
 
 ### url_prefixを追加する
 
-ビュー側、もしくはアプリケーション側のいずれかでurl_prefixを定義することでルーティングにURL Prefixを追加できる。
+url_prefixを定義することでルーティングにURL Prefixを追加できる。
 
 #### ビュー側で定義する場合
 
@@ -87,8 +88,6 @@ app.register_blueprint(profile)
 from flask import Blueprint, render_template
 
 profile = Blueprint('profile', __name__, url_prefix='/<user_url_slug>')
-
-# [...]
 ```
 
 #### アプリケーション側で定義する場合
@@ -105,9 +104,7 @@ app.register_blueprint(profile, url_prefix='/<user_url_slug>')
 
 ### サブドメインを追加する
 
-ルーティングにサブドメインを追加することもできる。
-
-ビュー側、もしくはアプリケーション側で定義する。
+ルーティングにサブドメインを追加することも可能。
 
 #### ビュー側で追加する場合
 
@@ -136,8 +133,9 @@ app.register_blueprint(profile, url_prefix='/<user_url_slug>')
 
 ### viewに渡す前の前処理を追加する
 
-url_value_preprocessor()を使うことで、viewに渡す前の前処理を記述することができる
+`url_value_preprocessor()`を使うことで、viewに渡す前の前処理を追加することが可能。
 
+`g`はJinja2のコンテキスト。これに渡すとビューで参照できる。
 
 ```
 # facebook/views/profile.py
@@ -167,21 +165,18 @@ def about():
     return render_template('profile/about.html')
 ```
 
-gはJinja2のコンテキスト。これに渡すとビューで参照できる
-
 
 ## Blueprintにおける２つのベストプラクティス
 
 blueprintを使ったアプリケーションの構造化にはプラクティスとして２つの観点がある。
 
-アプリケーションの特性に合わせて、いずれかを参考にするとよい。
+アプリケーションの特性に合わせて、いずれかを選択するとよい。
 
 
 ### divisionalな構造化
 
-ビュー、テンプレート、staticfileをまとめてアプリケーションの１つのセクションにする方法。
-
-テンプレートやstaticfileを共有しておらず、blueprintにまとめたい部分の独立性が高い場合はこちらの方法をとる。
+- ビュー、テンプレート、staticfileをまとめてアプリケーションの１つのセクションにする方法。
+- テンプレートやstaticfileを共有しておらず、blueprintにまとめたい部分の独立性が高い場合はこちらの方法をとる。
 
 divisionalな構造にする場合は、以下のような構成になる。
 
@@ -208,9 +203,8 @@ yourapp/
 
 ### functionalな構造化
 
-ビューのみをblueprintに登録する方法。
-
-テンプレートに共通のレイアウトファイルがあったりstaticfileに共有するものが多い場合は、テンプレートとstaticfileは変わらず共通のままにして、ビューファイルのみblueprintに登録する。
+- ビューのみをblueprintに登録する方法。
+- テンプレートに共通のレイアウトファイルがあったりstaticfileに共有するものが多い場合は、テンプレートとstaticfileは変わらず共通のままにして、ビューファイルのみblueprintに登録する。
 
 functionalな構造にする場合は、以下のような構成になる。
 
