@@ -15,10 +15,10 @@ Blueprintを使うことで、関連するビューやコードを一つにま�
 ## 目次
 - [まとめ](#まとめ)
 - [基本的な使い方](#基本的な使い方)
-- [オプション](#オプション)
-  - [url_prefixを追加](#url_prefixを追加)
-  - [サブドメインを追加](#サブドメインを追加)
-  - [viewに渡す前の前処理を追加](#viewに渡す前の前処理を追加)
+- [追加の設定](#追加の設定)
+  - [url_prefixを追加する](#url_prefixを追加する)
+  - [サブドメインを追加する](#サブドメインを追加する)
+  - [viewに渡す前の前処理を追加する](#viewに渡す前の前処理を追加する)
 - [Blueprintにおける２つのベストプラクティス](#Blueprintにおける２つのベストプラクティス)
 
 ## まとめ
@@ -73,9 +73,9 @@ app = Flask(__name__)
 app.register_blueprint(profile)
 ```
 
-## オプション
+## 追加の設定
 
-### url_prefixを追加
+### url_prefixを追加する
 
 ビュー側、もしくはアプリケーション側のいずれかでurl_prefixを定義することでルーティングにURL Prefixを追加できる。
 
@@ -103,7 +103,7 @@ app = Flask(__name__)
 app.register_blueprint(profile, url_prefix='/<user_url_slug>')
 ```
 
-### サブドメインを追加
+### サブドメインを追加する
 
 ルーティングにサブドメインを追加することもできる。
 
@@ -134,7 +134,7 @@ app.register_blueprint(profile, url_prefix='/<user_url_slug>')
 ```
 
 
-### viewに渡す前の前処理を追加
+### viewに渡す前の前処理を追加する
 
 url_value_preprocessor()を使うことで、viewに渡す前の前処理を記述することができる
 
