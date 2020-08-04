@@ -1,5 +1,5 @@
 ---
-title: "[flask]Blueprintでアプリケーションを分割する方法と２つのベストプラクティス"
+title: "[flask]Blueprintでアプリケーションを分割する方法とベストプラクティス"
 date: 2018-01-08T10:00:00+09:00
 tags: ["flask", "python"]
 ---
