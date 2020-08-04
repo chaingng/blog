@@ -19,7 +19,7 @@ Blueprintを使うことで、関連するビューやコードを一つにま�
   - [url_prefixを追加](#url_prefixを追加)
   - [サブドメインを追加](#サブドメインを追加)
   - [viewに渡す前の前処理を追加](#viewに渡す前の前処理を追加)
-- [blueprintを使った構造化のtips](#blueprintを使った構造化のtips)
+- [Blueprintの２種類のプラクティス](#blueprintを使った構造化のtips)
 
 ## まとめ
 * ブループリントはアプリケーションを構造化するのに役に立つ
