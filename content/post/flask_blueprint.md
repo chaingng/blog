@@ -1,11 +1,25 @@
 ---
-title: "Blueprintでflaskアプリケーションをわかりやすく構造化"
+title: "[flask]Blueprintでアプリケーションを分割する方法"
 date: 2018-01-08T10:00:00+09:00
-tags: [ "flask"]
+tags: ["flask", "python"]
 ---
 
-[blueprint](http://exploreflask.com/en/latest/blueprints.html)を使うことで、flaskアプリケーションをわかりやすく構造化することができる。
+## Blueprintとは
 
+[Blueprint](https://flask.palletsprojects.com/en/1.1.x/tutorial/views/)とは、アプリケーションを分割するための機能です。
+
+Blueprintを使うことで、関連するビューやコードを一つにまとめて、独立して扱うことが可能になります。
+
+大規模なアプリケーションを開発する場合は、Blueprintを使うことが推奨されています。
+
+## 目次
+- [まとめ](#まとめ)
+- [基本的な使い方](#基本的な使い方)
+- [オプション](#オプション)
+  - [url_prefixを追加](#url_prefixを追加)
+  - [サブドメインを追加](#サブドメインを追加)
+  - [viewに渡す前の前処理を追加](#viewに渡す前の前処理を追加)
+- [blueprintを使った構造化のtips](#blueprintを使った構造化のtips)
 
 ## まとめ
 * ブループリントはアプリケーションを構造化するのに役に立つ
@@ -59,11 +73,13 @@ app = Flask(__name__)
 app.register_blueprint(profile)
 ```
 
-## URL prefixを追加
+## オプション
+
+### url_prefixを追加
 
 ビュー側、もしくはアプリケーション側のいずれかでurl_prefixを定義することでルーティングにURL Prefixを追加できる。
 
-### ビュー側で定義する場合
+#### ビュー側で定義する場合
 
 ```
 # facebook/views/profile.py
@@ -75,7 +91,7 @@ profile = Blueprint('profile', __name__, url_prefix='/<user_url_slug>')
 # [...]
 ```
 
-### アプリケーション側で定義する場合
+#### アプリケーション側で定義する場合
 
 ```
 # facebook/__init__.py
@@ -87,13 +103,13 @@ app = Flask(__name__)
 app.register_blueprint(profile, url_prefix='/<user_url_slug>')
 ```
 
-## サブドメインを追加
+### サブドメインを追加
 
 ルーティングにサブドメインを追加することもできる。
 
 ビュー側、もしくはアプリケーション側で定義する。
 
-### ビュー側で追加する場合
+#### ビュー側で追加する場合
 
 ```
 # sitemaker/__init__.py
@@ -105,7 +121,7 @@ app = Flask(__name__)
 app.register_blueprint(site, subdomain='<site_subdomain>')
 ```
 
-### アプリケーション側で追加する場合
+#### アプリケーション側で追加する場合
 
 ```
 # facebook/__init__.py
@@ -118,7 +134,7 @@ app.register_blueprint(profile, url_prefix='/<user_url_slug>')
 ```
 
 
-## viewに渡す前の前処理を追加
+### viewに渡す前の前処理を追加
 
 url_value_preprocessor()を使うことで、viewに渡す前の前処理を記述することができる
 
@@ -154,7 +170,7 @@ def about():
 gはJinja2のコンテキスト。これに渡すとビューで参照できる
 
 
-## blueprintを使った構造化のtips。divisionalな構造化かfunctionalな構造化か？
+## blueprintを使った構造化のtips
 
 blueprintを使ったアプリケーションの構造化にはプラクティスとして２つの観点がある。
 
