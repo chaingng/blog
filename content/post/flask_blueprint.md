@@ -1,5 +1,5 @@
 ---
-title: "[flask]Blueprintでアプリケーションを分割する方法"
+title: "[flask]Blueprintでアプリケーションを分割する方法と２つのベストプラクティス"
 date: 2018-01-08T10:00:00+09:00
 tags: ["flask", "python"]
 ---
@@ -19,14 +19,14 @@ Blueprintを使うことで、関連するビューやコードを一つにま�
   - [url_prefixを追加](#url_prefixを追加)
   - [サブドメインを追加](#サブドメインを追加)
   - [viewに渡す前の前処理を追加](#viewに渡す前の前処理を追加)
-- [Blueprintの２種類のプラクティス](#blueprintを使った構造化のtips)
+- [Blueprintにおける２つのベストプラクティス](#Blueprintにおける２つのベストプラクティス)
 
 ## まとめ
 * ブループリントはアプリケーションを構造化するのに役に立つ
 * ブループリントを使うと、ビュー、テンプレート、staticfilesをまとめてアプリケーションに適用できる
-* プラクティスとして、divisionalな構造化またはfunctionalな構造化がある
-* divisionalな構造では、各ブループリントはビュー、テンプレート、staticfileをまとめてアプリケーションの１つのセクションにする
-* functionalな構造では、各ブループリントは単なるビューの集まりにする。テンプレートとstaticfileは共通のままにしておく
+* ベストプラクティスとして、divisionalな構造化またはfunctionalな構造化がある
+  * divisionalな構造では、各ブループリントはビュー、テンプレート、staticfileをまとめてアプリケーションの１つのセクションにする
+  * functionalな構造では、各ブループリントは単なるビューの集まりにする。テンプレートとstaticfileは共通のままにしておく
 * url_value_preprocessor()を使うことで、viewに渡す前の前処理を追加できる
 * url prefixを適用できる
 * サブドメインを適用できる
@@ -34,9 +34,9 @@ Blueprintを使うことで、関連するビューやコードを一つにま�
 
 ## 基本的な使い方
 
-blueprintに追加したいビューにて、blueprintを作成する。
+Blueprintに追加したいビューにて、Blueprintを作成する。
 
-ここでは、profileという名前でblueprintを作成する
+ここでは、profileという名前でBlueprintを作成する
 
 ```
 # facebook/views/profile.py
@@ -61,7 +61,7 @@ def about(user_url_slug):
     return render_template('profile/about.html')
 ```
 
-flaskアプリケション側で、profileという名前で定義したblueprintを登録する。
+flaskアプリケション側で、profileという名前で定義したBlueprintを登録する。
 
 ```
 # facebook/__init__.py
@@ -170,7 +170,7 @@ def about():
 gはJinja2のコンテキスト。これに渡すとビューで参照できる
 
 
-## blueprintを使った構造化のtips
+## Blueprintにおける２つのベストプラクティス
 
 blueprintを使ったアプリケーションの構造化にはプラクティスとして２つの観点がある。
 
