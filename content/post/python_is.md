@@ -1,5 +1,5 @@
 ---
-title: "pythonの比較におけるisと==の違い"
+title: "[python] 比較におけるisと==の違い"
 date: 2018-01-30T10:00:00+09:00
 tags: [ "python"]
 ---
