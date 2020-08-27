@@ -9,6 +9,8 @@ tags: [ "python"]
 - [ファイルの読み込み](#ファイルの読み込み)
 - [ファイルのデフォルト読み込み](#ファイルのデフォルト読み込み)
 - [ファイルの追加書き込み](#ファイルの追加書き込み)
+- [ファイルを１行ずつ読み込み](#ファイルを１行ずつ読み込み)
+- [ファイルをリストとして読み込み](#ファイルをリストとして読み込み)
 
 ## ファイルの書き込み
 
@@ -62,4 +64,25 @@ with open('sample.txt') as f:
 print(data)
 # Hello, world!
 # Hello, again!
+```
+
+## ファイルを１行ずつ読み込み
+
+```
+with open('sample.txt') as f:
+    for line in f:
+        print(line)
+# Hello, world!
+# 
+# Hello, again!        
+```
+
+## ファイルをリストとして読み込み
+
+```
+with open('sample.txt') as f:
+    l = [s.strip() for s in f.readlines()]
+
+print(l)
+# ['Hello, world!', 'Hello, again!']
 ```
