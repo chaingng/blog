@@ -1,5 +1,5 @@
 ---
-title: "Pythonでのマージソートの実装"
+title: "[python] マージソートの実装"
 date: 2018-02-09T10:00:00+09:00
 tags: [ "python"]
 ---
