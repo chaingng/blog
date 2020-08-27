@@ -1,5 +1,5 @@
 ---
-title: "python2ではtimestamp()が使えないのでdatetimeに変換して日付を比較する"
+title: "[python] python2ではtimestamp()が使えないのでdatetimeに変換して日付を比較する"
 date: 2018-01-02T10:00:00+09:00
 tags: [ "python"]
 ---
