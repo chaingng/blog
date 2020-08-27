@@ -1,5 +1,5 @@
 ---
-title: "Pythonでのバブルソートの実装"
+title: "[python] バブルソートの実装"
 date: 2018-02-12T10:00:00+09:00
 tags: [ "python"]
 ---
