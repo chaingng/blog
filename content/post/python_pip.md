@@ -1,5 +1,5 @@
 ---
-title: "pipの使い方まとめ"
+title: "[python] pipの使い方まとめ"
 date: 2020-06-01T10:00:00+09:00
 tags: [ "python"]
 ---
