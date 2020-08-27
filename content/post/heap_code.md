@@ -1,5 +1,5 @@
 ---
-title: "Pythonでのヒープの実装"
+title: "[python] ヒープの実装"
 date: 2018-03-02T10:00:00+09:00
 tags: [ "python"]
 ---
