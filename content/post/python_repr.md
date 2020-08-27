@@ -1,5 +1,5 @@
 ---
-title: "[python]__repr__と__str__の違い"
+title: "[python] __repr__と__str__の違い"
 date: 2018-01-22T10:00:00+09:00
 tags: [ "python"]
 ---
