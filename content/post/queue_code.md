@@ -1,5 +1,5 @@
 ---
-title: "Pythonでのキューの実装"
+title: "[python] キューの実装"
 date: 2018-02-23T10:00:00+09:00
 tags: [ "python"]
 ---
