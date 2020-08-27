@@ -1,5 +1,5 @@
 ---
-title: "linuxにおけるシグナルとkill"
+title: "[linux]シグナルとkill"
 date: 2018-01-05T10:00:00+09:00
 tags: [ "linux"]
 ---
