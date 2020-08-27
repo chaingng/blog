@@ -1,5 +1,5 @@
 ---
-title: "python string文字列の使い方"
+title: "[python] string文字列の使い方"
 date: 2017-04-30T10:00:00+09:00
 tags: [ "python"]
 ---
