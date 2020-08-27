@@ -1,5 +1,5 @@
 ---
-title: "Python classの使い方"
+title: "[python] classの使い方"
 date: 2020-07-01T00:00:00+09:00
 tags: [ "python"]
 ---
