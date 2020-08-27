@@ -1,5 +1,5 @@
 ---
-title: "pythonデータ型ごとのメモリサイズ"
+title: "[python] データ型ごとのメモリサイズ"
 date: 2018-01-15T10:00:00+09:00
 tags: [ "python"]
 ---
