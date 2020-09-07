@@ -9,8 +9,8 @@ hasCJKLanguage = true
 
 [Author]
     name = "Takatomo Honda"
-    # bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-    avatar = "img/avatar.png"
+    bio = "システム開発 / プロトタイプ開発 / 開発組織の構築 / アプリケーションの内製化 /等、お気軽にご相談ください。"
+    avatar = "img/myicon.jpeg"
 
 
 [Params]
@@ -19,7 +19,7 @@ hasCJKLanguage = true
     opengraph = true
     readmore = true # Show "Read more" button in list if true
     leftsidebar = false # Move sidebar to the left side if true
-    authorbox = false
+    authorbox = true
     post_navigation = true
     postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
     #postSections = ["blog", "news"] # alternative that shows more than one section's pages
@@ -38,4 +38,4 @@ hasCJKLanguage = true
     social_twitter = "takatm0103"
     social_linkedin = "takatomo-honda-2b7479b0"
     social_github = "chaingng"
-    # social_email = "example@example.com"
+    social_email = "takatomo.honda.0103@gmail.com"
