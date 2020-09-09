@@ -1,5 +1,5 @@
 ---
-title: "[flask] アプリケーションファクトリでFlaskを起動"
+title: "[flask] アプリケーションファクトリを作成してFlaskを起動"
 date: 2020-08-08T10:00:00+09:00
 tags: [ "flask"]
 ---
