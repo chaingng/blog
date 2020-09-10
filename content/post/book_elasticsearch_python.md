@@ -8,7 +8,7 @@ tags: [ "column"]
 
 
 <a href="https://amzn.to/2PeF5Js" target="_blank" rel="noopener noreferrer">
-    <img src="{{ "python_es.jpg" | relURL }}" alt="Pythonで作るはじめてのElasticsearchアプリケーション" />
+    <img src="/img/python_es.jpg" alt="Pythonで作るはじめてのElasticsearchアプリケーション" />
 </a>
 
 
