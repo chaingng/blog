@@ -8,6 +8,7 @@ tags: [ "column"]
 
 ゼロからはじめて、手を動かしていただきながら読み進めていただくことで、最後には以下のようなデモが作れるよう構成しております。
 
-<img src="{{ "img/demo_es.gif" | relURL }}" Width='250' 　alt="Pythonで作るはじめてのElasticsearchアプリケーション" />
+<img src="./img/demo_es.gif" Width="250" alt="Pythonで作るはじめてのElasticsearchアプリケーション">
+
 
 ぜひご一読いただければ幸いです。
