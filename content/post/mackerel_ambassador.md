@@ -1,5 +1,5 @@
 ---
-title: "Mackerelアンバサダーに就任しました　＆　なぜMackerelを使うのか"
+title: "Mackerelアンバサダーに就任しました＆なぜMackerelを使うのか"
 date: 2020-09-10T10:00:00+09:00
 tags: [ "column"]
 ---
