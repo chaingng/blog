@@ -7,6 +7,10 @@ tags: [ "column"]
 このたび、[Pythonで作るはじめてのElasticsearchアプリケーション](https://amzn.to/2PeF5Js)を出版いたしました。
 
 
+<a href="https://amzn.to/2PeF5Js" target="_blank" rel="noopener noreferrer">
+    <img src="{{ "python_es.jpg" | relURL }}" alt="Pythonで作るはじめてのElasticsearchアプリケーション" />
+</a>
+
 
 ゼロからはじめて、手を動かしていただきながら読み進めていただくことで、最後には以下のようなデモが作れるよう構成しております。
 
