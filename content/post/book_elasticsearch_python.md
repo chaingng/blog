@@ -17,4 +17,4 @@ tags: [ "column"]
 
 <img src="/img/demo_es.gif" alt="Pythonで作るはじめてのElasticsearchアプリケーション">
 
-ぜひご一読いただければ幸いです。
+ぜひお手にとっていただければ幸いです。
