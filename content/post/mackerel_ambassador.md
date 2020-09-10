@@ -8,8 +8,7 @@ tags: [ "column"]
 
 このたび、[Mackerelアンバサダープログラム](https://mackerel.io/ja/blog/entry/ambassador/about)にご招待いただき、アンバサダーの一員として加えていただきました。
 
-![](https://user-images.githubusercontent.com/3523368/92728610-fd215a00-f3ab-11ea-92f2-eaf5f3d78447.png)
-
+<img src="https://user-images.githubusercontent.com/3523368/92728610-fd215a00-f3ab-11ea-92f2-eaf5f3d78447.png" width="250">
 
 「Mackerel の有償機能を含むすべての機能が無料で利用可能」ということで、
 機能を活用させていただくとともに、エバンジェリスト活動に寄与させていただければと思います。
