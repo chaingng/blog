@@ -46,7 +46,7 @@ tags: [ "column"]
 
 表示されたコマンドをサーバで１行実行するだけで監視をはじめることができます。
 
-![](https://user-images.githubusercontent.com/3523368/59572871-ff363380-90ea-11e9-90a9-c659ecf92d81.png)
+![](https://user-images.githubusercontent.com/3523368/92850328-4793ec80-f427-11ea-81d5-59077ee48691.png)
 
 
 
